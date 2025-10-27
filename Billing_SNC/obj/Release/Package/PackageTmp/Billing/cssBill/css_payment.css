@@ -1,0 +1,28 @@
+﻿ 
+.button_upload{
+    margin-top:-2px;
+    border:1px solid #7cb15b;
+    width:100px;
+    height:25px;
+    border-radius:15px;
+    background-color:#68b438;
+    transition:0.5s;
+}
+    .button_upload:hover {
+        background-color: #65d51e;
+    }
+
+.button_upload_system {
+    margin-top: -2px;
+    border: 1px solid #7cb15b;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #68b438;
+    transition: 0.5s;
+}
+
+    .button_upload_system:hover {
+        background-color: #65d51e;
+    }
+

@@ -1,0 +1,240 @@
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\WEBSNC2022.dll.config
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\WEBSNC2022.dll
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\WEBSNC2022.pdb
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\WEBSNC2022.xml
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\csc.exe
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\csc.exe.config
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\csc.rsp
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\csi.exe
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\csi.exe.config
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\csi.rsp
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\System.AppContext.dll
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\System.Console.dll
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\System.IO.Compression.dll
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\System.IO.Pipes.dll
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\System.Security.Claims.dll
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\System.ValueTuple.dll
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\System.Xml.XPath.dll
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\vbc.exe
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\vbc.exe.config
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\vbc.rsp
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\VBCSCompiler.exe
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\obj\Debug\WEBSNC2022.vbprojAssemblyReference.cache
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\obj\Debug\WEBSNC2022.Resources.resources
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\obj\Debug\WEBSNC2022.vbproj.GenerateResource.cache
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\obj\Debug\WEBSNC2022.vbproj.CoreCompileInputs.cache
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\obj\Debug\WEBSNC2022.vbproj.CopyComplete
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\obj\Debug\WEBSNC2022.dll
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\obj\Debug\WEBSNC2022.xml
+C:\Users\nattiko\source\repos\Web_SNC\WEBSNC2022\obj\Debug\WEBSNC2022.pdb
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\WEBSNC2022.dll.config
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\WEBSNC2022.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\WEBSNC2022.pdb
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\WEBSNC2022.xml
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\csc.exe
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\csc.exe.config
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\csc.rsp
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\csi.exe
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\csi.exe.config
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\csi.rsp
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\System.AppContext.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\System.Console.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\System.IO.Compression.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\System.IO.Pipes.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\System.Security.Claims.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\System.ValueTuple.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\System.Xml.XPath.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\vbc.exe
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\vbc.exe.config
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\vbc.rsp
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\VBCSCompiler.exe
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\obj\Debug\WEBSNC2022.vbprojAssemblyReference.cache
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\obj\Debug\WEBSNC2022.Resources.resources
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\obj\Debug\WEBSNC2022.vbproj.GenerateResource.cache
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\obj\Debug\WEBSNC2022.vbproj.CoreCompileInputs.cache
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\obj\Debug\WEBSNC2022.vbproj.CopyComplete
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\obj\Debug\WEBSNC2022.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\obj\Debug\WEBSNC2022.xml
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\WEBSNC2022\obj\Debug\WEBSNC2022.pdb
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\WEBSNC2022.dll.config
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\WEBSNC2022.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\WEBSNC2022.pdb
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\WEBSNC2022.xml
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\csc.exe
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\csc.exe.config
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\csc.rsp
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\csi.exe
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\csi.exe.config
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\csi.rsp
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.Managed.Core.targets
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\System.AppContext.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\System.Collections.Immutable.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\System.Console.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\System.IO.Compression.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\System.IO.FileSystem.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\System.IO.Pipes.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\System.Reflection.Metadata.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\System.Security.AccessControl.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\System.Security.Claims.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\System.Security.Principal.Windows.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\System.ValueTuple.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\System.Xml.XmlDocument.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\System.Xml.XPath.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\vbc.exe
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\vbc.exe.config
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\vbc.rsp
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\VBCSCompiler.exe
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\roslyn\VBCSCompiler.exe.config
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\obj\Debug\WEBSNC2022.vbprojAssemblyReference.cache
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\obj\Debug\WEBSNC2022.Resources.resources
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\obj\Debug\WEBSNC2022.vbproj.GenerateResource.cache
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\obj\Debug\WEBSNC2022.vbproj.CoreCompileInputs.cache
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\obj\Debug\WEBSNC2022.vbproj.CopyComplete
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\obj\Debug\WEBSNC2022.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\obj\Debug\WEBSNC2022.xml
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\WEBSNC2022\obj\Debug\WEBSNC2022.pdb
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\WEBSNC2022.dll.config
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\WEBSNC2022.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\WEBSNC2022.pdb
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\WEBSNC2022.xml
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\csc.exe
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\csc.exe.config
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\csc.rsp
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\csi.exe
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\csi.exe.config
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\csi.rsp
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.Managed.Core.targets
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\System.AppContext.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\System.Collections.Immutable.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\System.Console.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\System.IO.Compression.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\System.IO.FileSystem.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\System.IO.Pipes.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\System.Reflection.Metadata.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\System.Security.AccessControl.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\System.Security.Claims.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\System.Security.Principal.Windows.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\System.ValueTuple.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\System.Xml.XmlDocument.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\System.Xml.XPath.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\vbc.exe
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\vbc.exe.config
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\vbc.rsp
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\VBCSCompiler.exe
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\roslyn\VBCSCompiler.exe.config
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\obj\Debug\WEBSNC2022.Resources.resources
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\obj\Debug\WEBSNC2022.vbproj.GenerateResource.cache
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\obj\Debug\WEBSNC2022.vbproj.CoreCompileInputs.cache
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\obj\Debug\WEBSNC2022.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\obj\Debug\WEBSNC2022.xml
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\obj\Debug\WEBSNC2022.pdb
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\obj\Debug\WEBSNC2022.vbproj.AssemblyReference.cache
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\WEBSNC2022\obj\Debug\WEBSNC2022.vbproj.Up2Date

@@ -1,0 +1,81 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Master_page_01.master.vb" Inherits="Web_SNC.Master_page_01" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+     
+    <title>SNC SOUNDPROOF CO.,LTD.</title>
+     <link rel="shortcut icon" type="image/x-icon" href="~/Image/s.ico" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder> 
+    <link href="CSS/cssMaster.css" rel="stylesheet"   />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+            <ContentTemplate>
+                <div>
+                    <div style="width: 100%; height: 100%">
+                        <div style="width: 1000px; height: 150px; margin: 0 auto; margin-top: 30px; background-image: url('~/Image/backgroundweb.jpg')">
+                            <img src="Image/backgroundweb.jpg" alt="Paris" width="1000" height="150" style="border-radius: 15px;">
+                            <div>
+                                <div class="navbar">
+                                    <div class="topnav" id="myTopnav">
+                                        <a href="#" class="active"  >HOME</a>
+                                        <div class="dropdown">
+                                            <button class="dropbtn">
+                                                PRODUCT <i class="fa fa-caret-down"></i>
+                                            </button>
+                                            <div class="dropdown-content">
+                                                <a href="#">FELT</a>
+                                                <a href="#">MEL</a>
+                                                <a href="#">HARD PART</a>
+                                            </div>
+                                        </div>
+                                       <div class="dropdown">
+                                            <button class="dropbtn">
+                                                ACTIVITES <i class="fa fa-caret-down"></i>
+                                            </button>
+                                            <div class="dropdown-content">
+                                                <a href="#">5 ส</a>
+                                                <a href="#">กิจกรรมปลูกป่า</a>
+                                                <a href="#">ANNIVERSARY 25 YEARS</a>
+                                                <a href="#">กีฬาสัมพันธ์ประจำปี</a>
+                                                <a href="#">การซ้อมดับเพลิงประจำปี</a>
+                                                <a href="#">กิจกรรมช่วยเหลือสังคม</a>
+                                                <a href="#">ท่องเที่ยวประจำปี2562</a>
+                                                
+                                            </div>
+                                        </div>
+                                        <a href="#"  >WEBBOARD</a>
+                                        <a href="#about">JOB</a>
+                                        <a href="#about">ABOUT</a>
+                                         <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                sdasdsad
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </div>
+                </div>
+            </ContentTemplate>
+        </asp:UpdatePanel>
+    </form>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+</html>

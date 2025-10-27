@@ -1,0 +1,49 @@
+﻿ body, html {
+ 
+    margin: 0;
+  background: url(../Image/image_factory/Factory_snc1.jpg) no-repeat center center fixed;
+    /* Full height */
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ .contrainer-textbox{
+
+ }
+ .textbox{
+     height:35px;
+     width:300px;
+      font-size:20px;
+       border-radius:5px ;
+       border:1px solid orange;
+ }
+.btnlogin {
+    width: 100px;
+    height: 30px;
+    background-color:  #28a745;
+    font-size: 20px;
+    border: 1px solid #10f062;
+    border-radius:30px;
+    color:white;
+    transition:0.3s;
+}
+    .btnlogin:hover {
+        background-color: #1f8236;
+    }
+
+
+.btnregister {
+    width: 100px;
+    height: 30px;
+    background-color: orange;
+    font-size: 20px;
+    border: 1px solid #ffcd70;
+    border-radius: 30px;
+    color: white;
+    transition: 0.3s;
+}
+    .btnregister:hover {
+        background-color: #ffbb3f;
+    }

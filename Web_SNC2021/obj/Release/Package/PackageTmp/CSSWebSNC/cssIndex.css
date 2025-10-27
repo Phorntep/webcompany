@@ -1,0 +1,1024 @@
+﻿body, html {
+    height: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+    
+}
+
+* {
+    box-sizing: border-box
+}
+.myBtn {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    z-index: 9999;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+    .myBtn:hover {
+        background-color: green;
+    }
+.imgtitle {
+    border-radius: 30px;
+}
+
+.navbar {
+    /*padding-left:5px;
+    padding-right:5px;
+    width:calc(100% - 10px);*/
+    width: 100%;
+    height: 48px;
+    background-color: #333;
+    float: left;
+    z-index: 9999;
+    /*border-radius: 15px 15px 0px 0px;*/
+  
+}
+
+.topnav {
+    background-color: #333;
+    
+}
+
+    .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 18px;
+        transition: 0.4s;
+    }
+
+.active {
+    background-color: #4caf50;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+   
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+    .dropdown .dropbtn {
+        font-size: 17px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: #333;
+        font-family: inherit;
+        margin: 0;
+        transition: 0.4s;
+    }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+.topnav a:hover, .dropdown:hover .dropbtn:hover {
+    background-color: #555;
+    color: white;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child), .dropdown .dropbtn {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+
+        .topnav.responsive .icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        .topnav.responsive a {
+            float: none;
+            display: block;
+            text-align: left;
+        }
+
+        .topnav.responsive .dropdown {
+            float: none;
+        }
+
+        .topnav.responsive .dropdown-content {
+            position: relative;
+        }
+
+        .topnav.responsive .dropdown .dropbtn {
+            display: block;
+            width: 100%;
+            text-align: left;
+        }
+}
+
+.topnav-right {
+    width: 420px;
+    height: 47px;
+    float:right; 
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.imagefull {
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0,0.5)),url('../Image/image_factory/IMG_20191207_093222_1.jpg');
+}
+.imageBG {
+    height: 950px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0,0.6)),url('../Image/image_factory/IMG_20191207_093222_1.jpg');    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.top-right1 {
+    margin-top: 50px;
+    position: absolute;
+    top: 8px;
+    right: 220px;
+    background-image: url('../Image/Certification/iatf16949-iso9001_edited-03.jpg');
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.top-right2 {
+    margin-top: 50px;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    background-image: url('../Image/Certification/URS-3.png');
+    width: 200px;
+    height: 110px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.top-right3 {
+    margin-top: 50px;
+    position: absolute;
+    top: 130px;
+    right: 16px;
+    background-image: url('../Image/Certification/46ce866c2064d33.jpg');
+    width: 200px;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-text {
+    width: 100%;
+    text-align: center;
+    /*transform: translate(-50%, -50%);*/
+    color: white;
+    position: absolute;
+   top:475px;
+    z-index:9998;
+    /*left: 50%;*/
+}
+/********************************************************************************/
+img {
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+.sizeImage {
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides1 {
+    display: none;
+}
+
+.mySlides2 {
+    display: none;
+}
+.mySlides3 {
+    display: none;
+}
+.mySlides_5s {
+    display: none;
+}
+.mySlides_Afforest{
+    display: none;
+}
+.mySlides_Anniversary{
+    display: none;
+}
+.mySlides_sport_day {
+    display: none;
+}
+.mySlides_Fire_drill {
+    display: none;
+}
+.mySlides_CSR {
+    display: none;
+}
+.mySlides_travel {
+    display: none;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+} 
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    
+}
+
+/* Position the "next button" to the right */
+.next {
+     right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev{
+    left:0;
+}
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: sticky;
+    bottom: 8px;
+    width: 100%;
+    text-align: left;
+    color:black;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 60px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+    .active, .dot:hover {
+        background-color: #717171;
+    }
+
+.dot1 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+    .active1, .dot1:hover {
+        background-color: #717171;
+    }
+
+.dot2 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+    .active2, .dot2:hover {
+        background-color: #717171;
+    }
+/****************************************************/
+.dot3 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+    .active3, .dot3:hover {
+        background-color: #717171;
+    }
+/****************************************************/
+.dot_5s {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+    .active_5s, .dot_5s:hover {
+        background-color: #717171;
+    }
+    /****************************************************/
+.dot_Afforest {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+    .active_Afforest, .dot_Afforest:hover {
+        background-color: #717171;
+    }  
+    /****************************************************/
+.dot_Anniversary {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+    .active_Anniversary, .dot_Anniversary:hover {
+        background-color: #717171;
+    }  
+    /**********************sportDay******************************/
+.dot_sport_day {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+    .active_sport_day, .dot_sport_day:hover {
+        background-color: #717171;
+    }
+/************************Fire_drill****************************/
+.dot_Fire_drill {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+    .active_Fire_drill, .dot_Fire_drill:hover {
+        background-color: #717171;
+    }
+    /************************CSR****************************/
+.dot_CSR {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+    .active_CSR, .dot_CSR:hover {
+        background-color: #717171;
+    }
+/************************travel****************************/
+.dot_travel {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+    .active_travel, .dot_travel:hover {
+        background-color: #717171;
+    }
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+    background-color: black;
+    border-radius: 5px;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev, .next, .text {
+        font-size: 11px
+    }
+}
+/************************************************************************/
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+    .active_accordion, .accordion:hover {
+        background-color: #ccc;
+    }
+
+    .accordion:after {
+        content: '\002B';
+        color: #777;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+    }
+
+.active_accordion:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+/************************************************************************/
+.settable {
+}
+
+    .settable table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        border: 1px solid #ddd;
+    }
+
+    .settableth, .settable td {
+        text-align: left;
+        padding: 16px;
+    }
+
+        .settable th:first-child, .settable td:first-child {
+            text-align: left;
+        }
+
+    .settable tr:nth-child(even) {
+        background-color: #f2f2f2
+    }
+/************************************************************************/
+.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 30%;
+    height: 100%;
+}
+
+    /* Style the buttons inside the tab */
+    .tab button {
+        display: block;
+        background-color: inherit;
+        color: black;
+        padding: 22px 16px;
+        width: 100%;
+        border: none;
+        outline: none;
+        text-align: left;
+        cursor: pointer;
+        font-size: 17px;
+    }
+
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+            background-color: #ddd;
+        }
+
+        /* Create an active/current "tab button" class */
+        .tab button.active {
+            background-color: #ccc;
+        }
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: auto;
+    display: none;
+    border-left: 1px solid #ccc;
+}
+
+/* Clear floats after the tab */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+
+/**********************fac1***********************/
+img_fac1 {
+    vertical-align: middle;
+    
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container_fac1 {
+    position: relative;
+}
+
+/* Hide the images by default */
+.mySlides_fac1 {
+    display: none;
+    background-color: black;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor_fac1 {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev_fac1,
+.next_fac1 {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next_fac1 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev_fac1 {
+    left: 0;
+}
+    /* On hover, add a black background color with a little bit see-through */
+    .prev_fac1:hover,
+    .next_fac1:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+/* Number text (1/3 etc) */
+.numbertext_fac1 {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Container for image text */
+.caption-container_fac1 {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row_fac1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column_fac1 {
+    float: left;
+    width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo_fac1 {
+    opacity: 0.6;
+}
+
+    .active_fac1,
+    .demo_fac1:hover {
+        opacity: 1;
+    }
+/**********************fac2***********************/
+img_fac2 {
+    vertical-align: middle;
+  
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container_fac2 {
+    position: relative;
+}
+
+/* Hide the images by default */
+.mySlides_fac2 {
+    display: none;
+    background-color: black;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor_fac2 {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev_fac2,
+.next_fac2 {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next_fac2 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev_fac2 {
+    left: 0;
+}
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev_fac2:hover,
+    .next_fac2:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+/* Number text (1/3 etc) */
+.numbertext_fac2 {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Container for image text */
+.caption-container_fac2 {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row_fac2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column_fac2 {
+    float: left;
+    width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo_fac2 {
+    opacity: 0.6;
+}
+
+    .active_fac2,
+    .demo_fac2:hover {
+        opacity: 1;
+    }
+/*********************************************/
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0px;
+        opacity: 1
+    }
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
+#myDiv {
+    display: none;
+    text-align: center;
+}
+/****************************************modal_Image**************************************************/
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+    #myImg:hover {
+        opacity: 0.7;
+    }
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 1000px;
+}
+
+/* Caption of Modal Image */
+#caption_modal {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption_modal {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 50px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+    .close:hover,
+    .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
+ 
+.sss{
+
+}
+.fade-in { 
+    opacity: 1;
+}

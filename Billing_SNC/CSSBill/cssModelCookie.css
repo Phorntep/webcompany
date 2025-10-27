@@ -1,0 +1,132 @@
+﻿body {
+}
+
+.modalCookie {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */ 
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Full width */ 
+    
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0); /* Black w/ opacity */
+    -webkit-animation-name: fadeIn; /* Fade in the background */
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s;
+   
+}
+.modalCookie::after {
+    clear: left;
+   background-color:red
+}
+
+
+/* Modal Content */
+.modalCookie-contentCookie { 
+    background-color: #fefefe;
+    width: 100%;
+    height:auto; 
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s
+}
+ 
+/* The Close Button */
+.closeCookie {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+    .closeCookie :hover,
+    .closeCookie :focus {
+        color: #000;
+        /*text-decoration: none;*/
+        cursor: pointer;
+    }
+
+.modalCookie-headerCookie {
+     
+    background-color: #f86666;
+    color: white;
+}
+
+.modalCookie-bodyCookie {
+     
+    margin-top:10px;
+    margin-left:20px;
+    margin-right:20px;
+    
+    text-align:left;
+    
+}
+.modalCookie-table{
+    float:left; 
+    margin-bottom:15px;
+}
+
+.modalCookie-footerCookie {
+    padding: 2px 16px;
+    background-color: #f86666;
+    color: white;
+}
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+    from {
+        /*bottom: -300px;*/
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes slideIn {
+    from {
+        /*bottom: -300px;*/
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.btncookie{
+    height:50px;
+    width:200px;
+    background-color:#009fda;
+    border: unset;
+    font-size:18px; 
+    color:white; 
+    border-radius:5px;
+    text-align:center;
+}
+    .btncookie:hover {
+        background-color: #03729b;
+    }

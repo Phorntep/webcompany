@@ -1,0 +1,98 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="masterpageBill.master.vb" Inherits="Web_SNC.masterpageBill" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>SNC SOUNDPROOF</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="CSS/cssMaster_Bill01.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager runat="server">
+        </asp:ScriptManager>
+        <asp:UpdatePanel runat="server">
+            <ContentTemplate> 
+                <div> 
+                    <div class="navbar" id="navbar">
+                        <%--<div style="text-align: left; float: left;">
+                            <span style="font-size: 42px; cursor: pointer; left: 0;" onclick="openNav()">&#9776;</span>
+                        </div>--%>
+
+                        <div>
+                            <font style="color: #ff6a00; font-size: 45px; text-align: center;">SNC </font>
+                            <font style="color: white; font-size: 45px; text-align: center;">SOUNDPROOF</font>
+                        </div>
+                    </div>
+                  <%--  <div id="mySidenav" class="sidenav">
+                       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="Main_bill.aspx">Home</a>
+                        <a href="Add_Payment_Main.aspx">Add Payment</a>
+                        <a href="~/Billing/Billing_all.aspx" runat="server" id="link_regis">Billing</a>
+                        <button class="dropdown-btn" type="button">
+                            User in system
+                          <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-container">
+                            <a href="Billing/Register_Bill.aspx" runat="server" id="A1">Register</a>
+                             <a href="~/Billing/Manage_user.aspx" runat="server" id="A2">Manage User</a>
+                            <a href="#">Link 3</a>
+                        </div> 
+                              <asp:Button runat="server" ID="btnlogout" Text="Logout" OnClick="btnlogout_Click1"  CssClass="logout" OnClientClick="Confirm_logout();"   />
+                    </div>--%>
+
+                    
+                    <div id="main">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+
+                </div>
+            </ContentTemplate>
+        </asp:UpdatePanel>
+    </form>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+        //*********************************************************************
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
+
+        for (i = 0; i < dropdown.length; i++) {
+            dropdown[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var dropdownContent = this.nextElementSibling;
+                if (dropdownContent.style.display === "block") {
+                    dropdownContent.style.display = "none";
+                } else {
+                    dropdownContent.style.display = "block";
+                }
+            });
+        }
+        function Confirm_logout() {
+            var confirm_value = document.createElement("INPUT");
+            confirm_value.type = "hidden";
+            confirm_value.name = "confirm_value";
+            if (confirm("Are you sure logout ?")) {
+                confirm_value.value = "Yes";
+            } else {
+                confirm_value.value = "No";
+            }
+            document.forms[0].appendChild(confirm_value);
+        }
+
+
+    </script>
+</body>
+
+</html>

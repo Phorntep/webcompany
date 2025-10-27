@@ -1,0 +1,2819 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Billing_SNC
+</name>
+</assembly>
+<members>
+<member name="T:Billing_SNC.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Billing_SNC.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:Billing_SNC.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:Billing_SNC.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:Billing_SNC.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:Billing_SNC.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="F:Billing_SNC.Add_Payment_All._FileUpload1">
+<summary>
+FileUpload1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Add_Payment_All._btn_upload">
+<summary>
+btn_upload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Add_Payment_All._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Add_Payment_All._btn_upload_all">
+<summary>
+btn_upload_all control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Add_Payment_Main._dd_Seqeunce">
+<summary>
+dd_Seqeunce control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Add_Payment_Main._txtnamePay">
+<summary>
+txtnamePay control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Add_Payment_Main._FileUpload1">
+<summary>
+FileUpload1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Add_Payment_Main._btn_upload">
+<summary>
+btn_upload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Add_Payment_Main._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Add_Payment_Main._btn_delete_all">
+<summary>
+btn_delete_all control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_all._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_all._btn_close">
+<summary>
+btn_close control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_all._txt_Doc_number">
+<summary>
+txt_Doc_number control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_all._FileUpload1">
+<summary>
+FileUpload1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_all._btn_save_upload_file_supplier">
+<summary>
+btn_save_upload_file_supplier control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_all1._box_search">
+<summary>
+box_search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_all1._txt_company">
+<summary>
+txt_company control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_all1._chk_use_date">
+<summary>
+chk_use_date control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_all1._txt_date_start">
+<summary>
+txt_date_start control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_all1._txt_date_End">
+<summary>
+txt_date_End control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_all1._btn_search">
+<summary>
+btn_search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_all1._btn_confirm">
+<summary>
+btn_confirm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_all1._btnEditDateTranfer">
+<summary>
+btnEditDateTranfer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_all1._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_all1._Edit_date_Tranfer1">
+<summary>
+Edit_date_Tranfer1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_all1._Edit_date_Tranfer2">
+<summary>
+Edit_date_Tranfer2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_all1._GridView2">
+<summary>
+GridView2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_all1._txt_date_tranfer">
+<summary>
+txt_date_tranfer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_all1._btn_edit">
+<summary>
+btn_edit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_all1._btn_cancel">
+<summary>
+btn_cancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_all1._GridView3">
+<summary>
+GridView3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_all1._btn_edit_status_tranfer">
+<summary>
+btn_edit_status_tranfer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_all1._Button2">
+<summary>
+Button2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_confirm._GridView2">
+<summary>
+GridView2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_confirm._Calendar1">
+<summary>
+Calendar1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_confirm._txt_date_invoice">
+<summary>
+txt_date_invoice control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_confirm._lnk_get_date">
+<summary>
+lnk_get_date control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_confirm._btn_confirm_check">
+<summary>
+btn_confirm_check control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier._txt_job_id">
+<summary>
+txt_job_id control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier._txt_factory">
+<summary>
+txt_factory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier._txt_invoice_number">
+<summary>
+txt_invoice_number control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier._txt_des">
+<summary>
+txt_des control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier._txt_date_invoice">
+<summary>
+txt_date_invoice control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier._txt_money">
+<summary>
+txt_money control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier._txt_pay_rate">
+<summary>
+txt_pay_rate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier._txt_rate_vat">
+<summary>
+txt_rate_vat control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier._btn_Add_invoice">
+<summary>
+btn_Add_invoice control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier._Div1">
+<summary>
+Div1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier._FileUpload2">
+<summary>
+FileUpload2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier._btn_UploadExcel">
+<summary>
+btn_UploadExcel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier._Link_download_format">
+<summary>
+Link_download_format control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier._FileUpload3">
+<summary>
+FileUpload3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier._btnHideUpload">
+<summary>
+btnHideUpload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier._DivUpload_Invoice">
+<summary>
+DivUpload_Invoice control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier._labal1">
+<summary>
+labal1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier._FileUpload1">
+<summary>
+FileUpload1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier._btn_upload">
+<summary>
+btn_upload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier._GridView2">
+<summary>
+GridView2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier._btn_Save">
+<summary>
+btn_Save control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier_edit._txt_job_id">
+<summary>
+txt_job_id control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier_edit._txt_factory">
+<summary>
+txt_factory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier_edit._txt_invoice_number">
+<summary>
+txt_invoice_number control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier_edit._txt_des">
+<summary>
+txt_des control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier_edit._txt_date_invoice">
+<summary>
+txt_date_invoice control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier_edit._txt_money">
+<summary>
+txt_money control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier_edit._txt_pay_rate">
+<summary>
+txt_pay_rate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier_edit._txt_rate_vat">
+<summary>
+txt_rate_vat control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier_edit._btn_Add_invoice">
+<summary>
+btn_Add_invoice control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier_edit._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier_edit._DivUpload_Invoice">
+<summary>
+DivUpload_Invoice control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier_edit._labal1">
+<summary>
+labal1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier_edit._FileUpload1">
+<summary>
+FileUpload1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier_edit._btn_upload">
+<summary>
+btn_upload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier_edit._GridView2">
+<summary>
+GridView2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_supplier_edit._btn_Save">
+<summary>
+btn_Save control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Bill_list_supplier._ReportViewer1">
+<summary>
+ReportViewer1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Cookiespolicies._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Cookiespolicies._btnGomain">
+<summary>
+btnGomain control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Detail_payment._lbl_Job_id">
+<summary>
+lbl_Job_id control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Detail_payment._lbl_fac">
+<summary>
+lbl_fac control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Detail_payment._lbl_address">
+<summary>
+lbl_address control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Detail_payment._lbl_supplier">
+<summary>
+lbl_supplier control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Detail_payment._lbl_Phone">
+<summary>
+lbl_Phone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Detail_payment._lbl_email">
+<summary>
+lbl_email control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Detail_payment._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Detail_payment._Div_download">
+<summary>
+Div_download control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Detail_payment._GridView2">
+<summary>
+GridView2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Detail_payment._Div_edit">
+<summary>
+Div_edit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Detail_payment._btn_Edit_owner">
+<summary>
+btn_Edit_owner control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Index._lbl_day">
+<summary>
+lbl_day control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Log_billing._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Main_bill._www">
+<summary>
+www control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Manage_admin_email._txt_current_email">
+<summary>
+txt_current_email control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Manage_admin_email._dd_email">
+<summary>
+dd_email control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Manage_admin_email._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Manage_admin_email._dd_status_function">
+<summary>
+dd_status_function control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Manage_admin_email._btn_open_create">
+<summary>
+btn_open_create control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Manage_user._UpdatePanel1">
+<summary>
+UpdatePanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Manage_user._txt_company">
+<summary>
+txt_company control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Manage_user._DropDownList1">
+<summary>
+DropDownList1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Manage_user._btn_search">
+<summary>
+btn_search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Manage_user._btn_ExportExcel">
+<summary>
+btn_ExportExcel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Manage_user._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Manage_user._btn_close">
+<summary>
+btn_close control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Manage_user._txtusername">
+<summary>
+txtusername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Manage_user._txtpassword">
+<summary>
+txtpassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Manage_user._txtconfirmPass">
+<summary>
+txtconfirmPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Manage_user._txtCompany">
+<summary>
+txtCompany control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Manage_user._txtSupplier">
+<summary>
+txtSupplier control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Manage_user._txtaddress">
+<summary>
+txtaddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Manage_user._txtPhone">
+<summary>
+txtPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Manage_user._ddLevel">
+<summary>
+ddLevel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Manage_user._dd_status">
+<summary>
+dd_status control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Manage_user._txt_email">
+<summary>
+txt_email control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Manage_user._btn_success">
+<summary>
+btn_success control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Manage_user._btn_cancel">
+<summary>
+btn_cancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Print_bill._ReportViewer1">
+<summary>
+ReportViewer1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_Bill._txtusername">
+<summary>
+txtusername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_Bill._txtpassword">
+<summary>
+txtpassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_Bill._txtconfirmPass">
+<summary>
+txtconfirmPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_Bill._txtCompany">
+<summary>
+txtCompany control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_Bill._txtSupplier">
+<summary>
+txtSupplier control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_Bill._txtaddress">
+<summary>
+txtaddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_Bill._txtPhone">
+<summary>
+txtPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_Bill._txt_email">
+<summary>
+txt_email control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_Bill._ddLevel">
+<summary>
+ddLevel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_Bill._btn_success">
+<summary>
+btn_success control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_Bill._btn_cancel">
+<summary>
+btn_cancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_list_tranfer._lbl_Job_id">
+<summary>
+lbl_Job_id control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_list_tranfer._lbl_fac">
+<summary>
+lbl_fac control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_list_tranfer._lbl_address">
+<summary>
+lbl_address control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_list_tranfer._lbl_supplier">
+<summary>
+lbl_supplier control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_list_tranfer._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Billing_list_tranfer._btn_print">
+<summary>
+btn_print control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Reset_password._txtusername">
+<summary>
+txtusername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Reset_password._txtpassword">
+<summary>
+txtpassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Reset_password._txtconfirmPass">
+<summary>
+txtconfirmPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Reset_password._btn_success">
+<summary>
+btn_success control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Test_list._txtListItem">
+<summary>
+txtListItem control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Test_list._lblListDisplay">
+<summary>
+lblListDisplay control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Test_list._lstSocialNetwork">
+<summary>
+lstSocialNetwork control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Test_list._btnAdd">
+<summary>
+btnAdd control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.EditUserPage._txtusername">
+<summary>
+txtusername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.EditUserPage._txtpassword">
+<summary>
+txtpassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.EditUserPage._txtconfirmPass">
+<summary>
+txtconfirmPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.EditUserPage._txtCompany">
+<summary>
+txtCompany control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.EditUserPage._txtSupplier">
+<summary>
+txtSupplier control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.EditUserPage._txtaddress">
+<summary>
+txtaddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.EditUserPage._txtPhone">
+<summary>
+txtPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.EditUserPage._txt_email">
+<summary>
+txt_email control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.EditUserPage._btn_success">
+<summary>
+btn_success control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.EditUserPage._btn_confirm_Edit">
+<summary>
+btn_confirm_Edit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.EditUserPage._btn_cancel">
+<summary>
+btn_cancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Forgetpassword._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Forgetpassword._txtEmail">
+<summary>
+txtEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Forgetpassword._lbl_message">
+<summary>
+lbl_message control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Forgetpassword._btn_success">
+<summary>
+btn_success control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Forgetpassword._btn_cancel">
+<summary>
+btn_cancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.ResetPassword._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.ResetPassword._txtEmail">
+<summary>
+txtEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.ResetPassword._txt_password">
+<summary>
+txt_password control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.ResetPassword._txt_passwordConfrim">
+<summary>
+txt_passwordConfrim control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.ResetPassword._txt_OTP">
+<summary>
+txt_OTP control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.ResetPassword._lbl_message">
+<summary>
+lbl_message control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.ResetPassword._btn_success">
+<summary>
+btn_success control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.ResetPassword._btn_cancel">
+<summary>
+btn_cancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Login_Bill._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Login_Bill._ScriptManager1">
+<summary>
+ScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Login_Bill._UpdatePanel1">
+<summary>
+UpdatePanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Login_Bill._username">
+<summary>
+username control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Login_Bill._password">
+<summary>
+password control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Login_Bill._btn_login">
+<summary>
+btn_login control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Login_Bill._btn_register">
+<summary>
+btn_register control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Login_Bill._LinkButton1">
+<summary>
+LinkButton1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Login_Bill._lbl_herder">
+<summary>
+lbl_herder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Login_Bill._btn_cookie">
+<summary>
+btn_cookie control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.masterpageBill._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.masterpageBill._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.masterpageBill._BiggerBox">
+<summary>
+BiggerBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.masterpageBill._a_home">
+<summary>
+a_home control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.masterpageBill._but_billing">
+<summary>
+but_billing control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.masterpageBill._div_dd1">
+<summary>
+div_dd1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.masterpageBill._Chk_tranfer">
+<summary>
+Chk_tranfer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.masterpageBill._link_Billing">
+<summary>
+link_Billing control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.masterpageBill._A3">
+<summary>
+A3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.masterpageBill._btn_icon_userinsystem">
+<summary>
+btn_icon_userinsystem control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.masterpageBill._div_dd2">
+<summary>
+div_dd2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.masterpageBill._A2">
+<summary>
+A2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.masterpageBill._A4">
+<summary>
+A4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.masterpageBill._a6">
+<summary>
+a6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.masterpageBill._A1">
+<summary>
+A1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.masterpageBill._btnlogout">
+<summary>
+btnlogout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.masterpageBill._ContentPlaceHolder1">
+<summary>
+ContentPlaceHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.masterpageBill._btn_cookie">
+<summary>
+btn_cookie control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.MasterBillingPage._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.MasterBillingPage._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.MasterBillingPage._ContentPlaceHolder1">
+<summary>
+ContentPlaceHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Personaldataprotectionpolicy._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Personaldataprotectionpolicy._btnGomain">
+<summary>
+btnGomain control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_SNC._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_SNC._txtusername">
+<summary>
+txtusername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_SNC._txtpassword">
+<summary>
+txtpassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_SNC._txtconfirmPass">
+<summary>
+txtconfirmPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_SNC._txtCompany">
+<summary>
+txtCompany control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_SNC._txtSupplier">
+<summary>
+txtSupplier control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_SNC._txtaddress">
+<summary>
+txtaddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_SNC._txtPhone">
+<summary>
+txtPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_SNC._txt_email">
+<summary>
+txt_email control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_SNC._LinkButton1">
+<summary>
+LinkButton1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_SNC._btn_success">
+<summary>
+btn_success control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_SNC._btn_cancel">
+<summary>
+btn_cancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_snc_resp._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_snc_resp._ScriptManager1">
+<summary>
+ScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_snc_resp._UpdatePanel1">
+<summary>
+UpdatePanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_snc_resp._txtusername">
+<summary>
+txtusername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_snc_resp._txtpassword">
+<summary>
+txtpassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_snc_resp._txtconfirmPass">
+<summary>
+txtconfirmPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_snc_resp._txtCompany">
+<summary>
+txtCompany control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_snc_resp._txtSupplier">
+<summary>
+txtSupplier control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_snc_resp._txtaddress">
+<summary>
+txtaddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_snc_resp._txtPhone">
+<summary>
+txtPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_snc_resp._txt_email">
+<summary>
+txt_email control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_snc_resp._LinkButton1">
+<summary>
+LinkButton1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_snc_resp._btnSave">
+<summary>
+btnSave control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_snc_resp._btnSaves">
+<summary>
+btnSaves control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.Register_snc_resp._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.test._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.test._myBtn">
+<summary>
+myBtn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.test1._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.test1._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.test1._ContentPlaceHolder1">
+<summary>
+ContentPlaceHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.TestRegister._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.TestRegister._ScriptManager1">
+<summary>
+ScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.TestRegister._txtName">
+<summary>
+txtName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Billing_SNC.TestRegister._btnSubmit">
+<summary>
+btnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet.Des_invoiceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet.vatDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet.Des_invoiceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet.vatRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet.Des_invoiceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet.vatRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetTableAdapters.Des_invoiceTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetTableAdapters.vatTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Billing_SNC.WEBSNCNEW_BILLDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Billing_SNC.WEBSNCNEW_BILLDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Billing_SNC.WEBSNCNEW_BILLDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Billing_SNC.WEBSNCNEW_BILLDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Billing_SNC.WEBSNCNEW_BILLDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Billing_SNC.WEBSNCNEW_BILLDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Billing_SNC.WEBSNCNEW_BILLDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Billing_SNC.WEBSNCNEW_BILLDataSetTableAdapters.TableAdapterManager.UpdateAll(Billing_SNC.WEBSNCNEW_BILLDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet01">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet01.Des_invoiceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet01.Des_invoiceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet01.Des_invoiceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet01TableAdapters.Des_invoiceTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet01TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Billing_SNC.WEBSNCNEW_BILLDataSet01TableAdapters.TableAdapterManager.UpdateUpdatedRows(Billing_SNC.WEBSNCNEW_BILLDataSet01,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Billing_SNC.WEBSNCNEW_BILLDataSet01TableAdapters.TableAdapterManager.UpdateInsertedRows(Billing_SNC.WEBSNCNEW_BILLDataSet01,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Billing_SNC.WEBSNCNEW_BILLDataSet01TableAdapters.TableAdapterManager.UpdateDeletedRows(Billing_SNC.WEBSNCNEW_BILLDataSet01,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Billing_SNC.WEBSNCNEW_BILLDataSet01TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Billing_SNC.WEBSNCNEW_BILLDataSet01TableAdapters.TableAdapterManager.UpdateAll(Billing_SNC.WEBSNCNEW_BILLDataSet01)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet01TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet01TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV3.Des_invoiceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV3.FilepdfBillDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV3.PaymentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV3.Permission_LvDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV3.User_billDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV3.vatDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV3.Des_invoiceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV3.FilepdfBillRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV3.PaymentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV3.Permission_LvRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV3.User_billRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV3.vatRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV3.Des_invoiceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV3.FilepdfBillRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV3.PaymentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV3.Permission_LvRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV3.User_billRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV3.vatRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV3TableAdapters.Des_invoiceTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV3TableAdapters.FilepdfBillTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV3TableAdapters.PaymentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV3TableAdapters.Permission_LvTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV3TableAdapters.User_billTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV3TableAdapters.vatTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Billing_SNC.WEBSNCNEW_BILLDataSetV3TableAdapters.TableAdapterManager.UpdateUpdatedRows(Billing_SNC.WEBSNCNEW_BILLDataSetV3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Billing_SNC.WEBSNCNEW_BILLDataSetV3TableAdapters.TableAdapterManager.UpdateInsertedRows(Billing_SNC.WEBSNCNEW_BILLDataSetV3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Billing_SNC.WEBSNCNEW_BILLDataSetV3TableAdapters.TableAdapterManager.UpdateDeletedRows(Billing_SNC.WEBSNCNEW_BILLDataSetV3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Billing_SNC.WEBSNCNEW_BILLDataSetV3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Billing_SNC.WEBSNCNEW_BILLDataSetV3TableAdapters.TableAdapterManager.UpdateAll(Billing_SNC.WEBSNCNEW_BILLDataSetV3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV6">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV6.Des_invoiceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV6.FilepdfBillDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV6.PaymentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV6.Permission_LvDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV6.User_billDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV6.vatDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV6.Des_invoiceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV6.FilepdfBillRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV6.PaymentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV6.Permission_LvRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV6.User_billRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV6.vatRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV6.Des_invoiceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV6.FilepdfBillRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV6.PaymentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV6.Permission_LvRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV6.User_billRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV6.vatRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV6TableAdapters.Des_invoiceTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV6TableAdapters.FilepdfBillTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV6TableAdapters.PaymentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV6TableAdapters.Permission_LvTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV6TableAdapters.User_billTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV6TableAdapters.vatTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV6TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Billing_SNC.WEBSNCNEW_BILLDataSetV6TableAdapters.TableAdapterManager.UpdateUpdatedRows(Billing_SNC.WEBSNCNEW_BILLDataSetV6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Billing_SNC.WEBSNCNEW_BILLDataSetV6TableAdapters.TableAdapterManager.UpdateInsertedRows(Billing_SNC.WEBSNCNEW_BILLDataSetV6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Billing_SNC.WEBSNCNEW_BILLDataSetV6TableAdapters.TableAdapterManager.UpdateDeletedRows(Billing_SNC.WEBSNCNEW_BILLDataSetV6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Billing_SNC.WEBSNCNEW_BILLDataSetV6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Billing_SNC.WEBSNCNEW_BILLDataSetV6TableAdapters.TableAdapterManager.UpdateAll(Billing_SNC.WEBSNCNEW_BILLDataSetV6)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV6TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSetV6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2.Des_invoiceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2.FilepdfBillDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2.PaymentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2.Permission_LvDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2.User_billDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2.vatDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2.Des_invoiceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2.FilepdfBillRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2.PaymentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2.Permission_LvRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2.User_billRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2.vatRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2.Des_invoiceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2.FilepdfBillRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2.PaymentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2.Permission_LvRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2.User_billRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2.vatRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2TableAdapters.Des_invoiceTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2TableAdapters.FilepdfBillTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2TableAdapters.PaymentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2TableAdapters.Permission_LvTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2TableAdapters.User_billTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2TableAdapters.vatTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2TableAdapters.TableAdapterManager.UpdateInsertedRows(Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2TableAdapters.TableAdapterManager.UpdateDeletedRows(Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2TableAdapters.TableAdapterManager.UpdateAll(Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Billing_SNC.WEBSNCNEW_BILLDataSet_NEW_V2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,207 @@
+﻿********************CurentEmail_admin************************
+CREATE TABLE [dbo].[CurentEmail_admin] (
+    [ID]         INT            IDENTITY (1, 1) NOT NULL,
+    [EmailAdmin] NVARCHAR (100) NOT NULL,
+    [Name]       NCHAR (50)     NULL,
+    PRIMARY KEY CLUSTERED ([ID] ASC)
+);
+
+*************************************************************
+********************Des_invoice************************
+CREATE TABLE [dbo].[Des_invoice] (
+    [Id]                       INT             IDENTITY (1, 1) NOT NULL,
+    [Docnumber]                NVARCHAR (100)  NOT NULL,
+    [Description]              NVARCHAR (1000) NULL,
+    [Factory]                  NVARCHAR (500)  NULL,
+    [Date_invoice]             DATE            NULL,
+    [Number_invoice]           NVARCHAR (100)  NULL,
+    [Email]                    NVARCHAR (200)  NULL,
+    [status_pay]               BIT             NULL,
+    [invioce_money]            MONEY           NULL,
+    [userCreate]               NVARCHAR (100)  NULL,
+    [dateCreate]               DATETIME        NULL,
+    [amount_money]             MONEY           NULL,
+    [vat_rate]                 INT             NULL,
+    [amount_vat]               MONEY           NULL,
+    [total_money]              MONEY           NULL,
+    [status_vat]               BIT             NULL,
+    [date_confirm]             DATE            NULL,
+    [pay_total]                MONEY           NULL,
+    [Datetranfer]              DATE            NULL,
+    [status_tranfer]           BIT             NULL,
+    [pay_total_tranfer]        MONEY           NULL,
+    [status_reject]            BIT             NULL,
+    [date_reject]              DATE            NULL,
+    [status_edit]              BIT             NULL,
+    [check_send_email_tranfer] BIT             NULL,
+    [check_send_email_Confirm] BIT             NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+
+*************************************************************
+********************Email_admin************************
+CREATE TABLE [dbo].[Email_admin] (
+    [EmailAdmin] NVARCHAR (100) NOT NULL,
+    [Name]       NVARCHAR (50)  NULL,
+    [status]     BIT            NULL,
+    PRIMARY KEY CLUSTERED ([EmailAdmin] ASC)
+);
+
+
+*************************************************************
+********************FilepdfBill************************
+CREATE TABLE [dbo].[FilepdfBill] (
+    [Id]       INT            NOT NULL,
+    [NameBill] NVARCHAR (100) NULL,
+    [FilePDF]  TEXT           NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+
+*************************************************************
+********************Log_Billing************************
+CREATE TABLE [dbo].[Log_Billing] (
+    [Id]          INT            IDENTITY (1, 1) NOT NULL,
+    [Description] NVARCHAR (100) NULL,
+    [Mode]        NVARCHAR (50)  NULL,
+    [JobID]       NVARCHAR (50)  NULL,
+    [date]        DATETIME       NULL,
+    [UserAction]  NVARCHAR (50)  NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+
+*************************************************************
+********************Payment************************
+CREATE TABLE [dbo].[Payment] (
+    [Id]                    INT            IDENTITY (1, 1) NOT NULL,
+    [Docnumber]             NVARCHAR (50)  NOT NULL,
+    [Datetransfer]          DATE           NOT NULL,
+    [Factory]               NVARCHAR (100) NOT NULL,
+    [Amount_money]          MONEY          NOT NULL,
+    [status_pay]            BIT            NULL,
+    [doc_supplier]          TEXT           NULL,
+    [status_doc_supplier]   BIT            NULL,
+    [datetime_doc_supplier] DATETIME       NULL,
+    [Usersupplier_upload]   NVARCHAR (50)  NULL,
+    PRIMARY KEY CLUSTERED ([Docnumber] ASC)
+);
+
+
+
+*************************************************************
+********************Permission_Lv************************
+CREATE TABLE [dbo].[Permission_Lv] (
+    [Id_lv]          INT           NOT NULL,
+    [Discription_Lv] NVARCHAR (50) NULL,
+    PRIMARY KEY CLUSTERED ([Id_lv] ASC)
+);
+
+
+
+*************************************************************
+********************Setting_billing_create************************
+CREATE TABLE [dbo].[Setting_billing_create] (
+    [Id]              INT            NOT NULL,
+    [status_function] BIT            NULL,
+    [description]     NVARCHAR (100) NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+); 
+*************************************************************
+********************TestAPI************************
+CREATE TABLE [dbo].[TestAPI] (
+    [Id]       INT           IDENTITY (1, 1) NOT NULL,
+    [name]     NVARCHAR (50) NULL,
+    [lastname] NVARCHAR (50) NULL,
+    [salary]   MONEY         NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+); 
+*************************************************************
+********************User_bill************************
+CREATE TABLE [dbo].[User_bill] (
+    [Username]       NVARCHAR (50)   NOT NULL,
+    [Password]       NVARCHAR (1000) NOT NULL,
+    [Company]        NVARCHAR (200)  NOT NULL,
+    [Supplier]       NVARCHAR (100)  NULL,
+    [Status]         BIT             NULL,
+    [DateStart]      DATETIME        NULL,
+    [Address]        NVARCHAR (1000) NULL,
+    [Tel]            NVARCHAR (100)  NULL,
+    [Level]          INT             NULL,
+    [Description_lv] NVARCHAR (50)   NULL,
+    [time_out]       DATETIME        NULL,
+    [status_login]   BIT             NULL,
+    [Email]          NVARCHAR (200)  NULL,
+    PRIMARY KEY CLUSTERED ([Username] ASC)
+);
+*************************************************************
+********************vat************************
+CREATE TABLE [dbo].[vat] (
+    [Id]           INT           IDENTITY (1, 1) NOT NULL,
+    [Docnumber]    NVARCHAR (50) NULL,
+    [amount_money] MONEY         NULL,
+    [vat_persen]   INT           NULL,
+    [vat_money]    MONEY         NULL,
+    [status]       BIT           NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+*************************************************************
+****************Des_invoice_file_upload**********************
+
+CREATE TABLE [dbo].[Des_invoice_file_upload] (
+     [index]          INT             IDENTITY (1, 1) NOT NULL,
+    [Docnumber]      NVARCHAR (100)  NOT NULL,
+    [fileName]       NCHAR (1000)    NULL,
+    [dateUpload]     DATE            NULL,
+    [dateTimeUpload] DATETIME        NULL,
+    [Userupload]     NVARCHAR (100)  NULL,
+    [dataFile]       VARBINARY (MAX) NULL,
+    [contentType]    NVARCHAR (2000) NULL,
+    [statusSent]     BIT             NULL,
+    PRIMARY KEY CLUSTERED ([index] ASC)
+);
+
+*************************************************************
+
+
+***********************INSERT VARBINARY**************************
+select * from  [Des_invoice_file_upload]
+
+
+DECLARE @dataFile varbinary(max)
+SET @dataFile = (SELECT * FROM OPENROWSET (BULK 'C:\Users\nattiko.ma\Desktop\BillingOnlineSNC.xlsx', SINGLE_BLOB) tmp);
+
+INSERT INTO [dbo].[Des_invoice_file_upload]
+           ([Docnumber]
+           ,[fileName]
+           ,[dateUpload]
+           ,[dateTimeUpload]
+           ,[Userupload]
+           ,[dataFile]
+           ,[contentType]
+           ,[statusSent])
+     VALUES
+           ('SNC_file_up_master_2021-10-04'
+           ,'BillingOnlineSNC.xlsx'
+           ,GETDATE()
+           ,GETDATE()
+           ,'Supper Admin'
+           ,@dataFile
+           ,'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+           ,0)
+GO
+
+***********************INSERT VARBINARY**************************
+***********************OTPForgetpassword**************************
+CREATE TABLE [dbo].[OTPForgetpassword]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY,
+	[Email] nvarchar(200) NOT NULL, 
+    [Username] NVARCHAR(50) NULL, 
+    [OTP] INT NULL, 
+    [timeExpire] DATETIME NULL, 
+    [Status] BIT NULL
+
+)
+****************************************************************

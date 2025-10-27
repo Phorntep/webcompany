@@ -1,0 +1,38 @@
+﻿body {
+
+
+}
+*{
+
+}
+.textboxregister {
+    border:1px solid  #808080;
+    border-radius: 5px 5px;
+}
+.btn_register_success {
+    background-color: #91bf45;
+    border: 1px solid #7ba536;
+    border-radius: 10px 10px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    color: whitesmoke;
+    transition: 0.5s;
+}
+    .btn_register_success:hover {
+        background-color: #5a7e1e;
+    }
+.btn_register_cancel {
+    background-color: #de5555;
+    border: 1px solid #a83535;
+    border-radius: 10px 10px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    color: whitesmoke;
+    transition: 0.5s;
+}
+.btn_register_cancel:hover {
+    background-color: #ba2929;
+    
+}

@@ -1,0 +1,89 @@
+﻿body {
+}
+.btn_pay {
+    border: 1px solid #65e465;
+    border-radius: 5px;
+    background-color: #33CC33
+}
+.btn_add_invioce {
+    width:80px;
+    height:30px; 
+    font-size:20px;
+    border: 1px solid  #2a582a;
+    border-radius: 5px;
+    background-color: #33CC33
+}
+.btn_confirm {
+    width: 180px;
+    height: 30px;
+    font-size: 20px;
+    border: 1px solid #33CC33;
+    border-radius: 15px;
+    background-color: #33CC33
+}
+    .btn_confirm:hover {
+        background-color: #65e465
+    }
+.btn_add_invioce:hover {
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    border: 1px solid #2a582a;
+    border-radius: 5px;
+    background-color: #126f12
+}
+.btn_editTranfer {
+    width: 330px;
+    height: 30px;
+    font-size: 20px;
+    border: 1px solid #ffd300;
+    border-radius: 15px;
+    background-color: goldenrod
+}
+
+    .btn_editTranfer:hover {
+        background-color:   #ffd300
+    }
+
+.btn_search {
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    border: 1px solid antiquewhite;
+    border-radius: 15px;
+    background-color: bisque
+}
+
+    .btn_search:hover {
+        background-color:  antiquewhite
+    }
+.btn_add_invioce:hover {
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    border: 1px solid #2a582a;
+    border-radius: 5px;
+    background-color: #126f12
+}
+
+
+.txtbox_supplier{
+    border:1px solid  ;
+    border-radius:5px 5px;
+}
+.GVFixedHeader {
+    font-weight: bold;
+    background-color: Green;
+    position: relative;
+    top: expression(this.parentNode.parentNode.parentNode.scrollTop-1);
+}
+
+.GridViewContainer {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.StickyHeader {
+    position: absolute;
+    font-weight:bold;
+}

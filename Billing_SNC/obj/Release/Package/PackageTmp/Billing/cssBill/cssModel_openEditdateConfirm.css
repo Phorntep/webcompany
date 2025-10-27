@@ -1,0 +1,166 @@
+﻿body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+/* Set a style for all buttons */
+.button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+    .button:hover {
+        opacity: 1;
+    }
+
+/* Float cancel and delete buttons and add an equal width */
+.cancelbtn, .Editebtn {
+    
+    float: left;
+    width: 50%; 
+    height:30px;
+    border:0px solid; 
+}
+
+/* Add a color to the cancel button */
+.cancelbtn {
+    background-color: #ccc;
+    color: black;
+}
+
+/* Add a color to the delete button */
+.Editebtn {
+    background-color: #04AA6D;
+}
+
+.container_editdateConfirm {
+    padding: 16px;
+    text-align: center;
+}
+/* The Modal (background) */
+.modalEditdateConfirm {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modalEditdateConfirm-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width:80% /* Could be more or less, depending on screen size */
+}
+/* Style the horizontal ruler */
+hr {
+    border: 5px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* The Modal Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+    .close:hover,
+    .close:focus {
+        color: #f44336;
+        cursor: pointer;
+    }
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* Change styles for cancel button and delete button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .Editebtn {
+        width: 100%;
+    }
+}
+.modalEditdateConfirm-header {
+    padding: 2px 16px;
+    background-color:  #87ad19;
+    color: white;
+}
+
+.modalEditdateConfirm-body {
+    padding: 2px 16px;
+}
+
+.modalEditdateConfirm-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    margin-top: 10px;
+} 
+    /* Style the buttons inside the tab */
+.tab_button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+        /* Change background color of buttons on hover */
+    .tab_button:hover {
+        background-color: #ddd;
+    }
+
+        /* Create an active/current tablink class */
+        .tab_button.active {
+            background-color: #ccc;
+        }
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    animation: fadeEffect 1s;
+}
+
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

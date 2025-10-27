@@ -1,0 +1,809 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{AD983D61-E699-4D6E-AE23-9EA1FC4627DA}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Billing_SNC</RootNamespace>
+    <AssemblyName>Billing_SNC</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Billing_SNC.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Billing_SNC.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EPPlus, Version=5.1.1.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.5.1.1\lib\net45\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelDataReader.3.6.0\lib\net45\ExcelDataReader.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader.DataSet, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelDataReader.DataSet.3.6.0\lib\net35\ExcelDataReader.DataSet.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.150.1404.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.150.1404.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.150.1404.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.150.1404.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebDesign, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.150.1404.0\lib\net40\Microsoft.ReportViewer.WebDesign.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.150.1404.0\lib\net40\Microsoft.ReportViewer.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Threading.Tasks" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Billing\Add_Payment_All.aspx" />
+    <Content Include="Billing\Add_Payment_Main.aspx" />
+    <Content Include="Billing\Billing_all.aspx" />
+    <Content Include="Billing\Billing_all1.aspx" />
+    <Content Include="Billing\Billing_confirm.aspx" />
+    <Content Include="Billing\Billing_supplier.aspx" />
+    <Content Include="Billing\Billing_supplier_edit.aspx" />
+    <Content Include="Billing\Bill_list_supplier.aspx" />
+    <Content Include="ConfirmOTP.aspx" />
+    <Content Include="Cookie\Cookiespolicies.aspx" />
+    <Content Include="Billing\cssBill\cssBill_ALL.css" />
+    <Content Include="Billing\cssBill\cssComfirm.css" />
+    <Content Include="Billing\cssBill\cssModel_Edituser.css" />
+    <Content Include="Billing\cssBill\cssModel_manager_bill.css" />
+    <Content Include="Billing\cssBill\cssmodel_manageuser.css" />
+    <Content Include="Billing\cssBill\cssModel_openEditdateConfirm.css" />
+    <Content Include="Billing\cssBill\css_index.css" />
+    <Content Include="Billing\cssBill\css_payment.css" />
+    <Content Include="Billing\Detail_payment.aspx" />
+    <Content Include="Billing\Image_billing\billing2020.jpg" />
+    <Content Include="Billing\Image_billing\icon\check.png" />
+    <Content Include="Billing\Image_billing\icon\cancel.png" />
+    <Content Include="Billing\Image_billing\icon\Delete.png" />
+    <Content Include="Billing\Image_billing\icon\save.png" />
+    <Content Include="Billing\Image_billing\icon\pencil.png" />
+    <Content Include="Billing\Image_billing\icon\sort-arrows-couple-pointing-up-and-down.png" />
+    <Content Include="Billing\Image_billing\icon\uncheck.png" />
+    <Content Include="Billing\Image_billing\icon\upload.png" />
+    <Content Include="Billing\Image_billing\signature\New Project %282%29.png" />
+    <Content Include="Billing\Index.aspx" />
+    <Content Include="Billing\Jquery\bootstrap-datetimepicker.fr.js" />
+    <Content Include="Billing\Jquery\bootstrap-datetimepicker.js" />
+    <Content Include="Billing\Jquery\bootstrap-datetimepicker.min.css" />
+    <Content Include="Billing\Jquery\bootstrap.min.css" />
+    <Content Include="Billing\Jquery\bootstrap.min.js" />
+    <Content Include="Billing\Jquery\jquery-1.8.3.min.js" />
+    <Content Include="Billing\Log_billing.aspx" />
+    <Content Include="Billing\Main_bill.aspx" />
+    <Content Include="Billing\Manage_admin_email.aspx" />
+    <Content Include="Billing\Manage_user.aspx" />
+    <Content Include="Billing\Print_bill.aspx" />
+    <Content Include="Billing\Register_Bill.aspx" />
+    <Content Include="Billing\Billing_list_tranfer.aspx" />
+    <Content Include="Billing\Reset_password.aspx" />
+    <Content Include="Billing\Test_list.aspx" />
+    <Content Include="Billing\Video\Billing.mp4" />
+    <Content Include="Billing\EditUserPage.aspx" />
+    <Content Include="CSSBill\cssIndex.css" />
+    <Content Include="CSSBill\cssIndex1.css" />
+    <Content Include="CSSBill\cssIndex2.css" />
+    <Content Include="CSSBill\cssLoginbill.css" />
+    <Content Include="CSSBill\cssMaster.css" />
+    <Content Include="CSSBill\cssMasterBill2021.css" />
+    <Content Include="CSSBill\cssMaster_Bill2021.css" />
+    <Content Include="CSSBill\cssModelCookie.css" />
+    <Content Include="CSSBill\cssPolicy.css" />
+    <Content Include="CSSBill\cssRegisterbill.css" />
+    <Content Include="Forgetpassword\Forgetpassword.aspx" />
+    <Content Include="Forgetpassword\ResetPassword.aspx" />
+    <Content Include="Image\backgroundweb.jpg" />
+    <Content Include="Image\Certification\46ce866c2064d33.jpg" />
+    <Content Include="Image\Certification\iatf16949-iso9001_edited-03.jpg" />
+    <Content Include="Image\Certification\URS-1.png" />
+    <Content Include="Image\Certification\URS-3.png" />
+    <Content Include="Image\Customer\Customer2020.png" />
+    <Content Include="Image\ICON\comment.png" />
+    <Content Include="Image\Image_Event\5S\5s1.jpg" />
+    <Content Include="Image\Image_Event\5S\5sV2.png" />
+    <Content Include="Image\Image_Event\Afforest\7.jpg" />
+    <Content Include="Image\Image_Event\Afforest\home2.jpg" />
+    <Content Include="Image\Image_Event\Afforest\Home3.jpg" />
+    <Content Include="Image\Image_Event\Afforest\IMG_0173.JPG" />
+    <Content Include="Image\Image_Event\Afforest\IMG_0210.JPG" />
+    <Content Include="Image\Image_Event\Afforest\IMG_0216.JPG" />
+    <Content Include="Image\Image_Event\Afforest\IMG_0219.JPG" />
+    <Content Include="Image\Image_Event\Afforest\IMG_0223.JPG" />
+    <Content Include="Image\Image_Event\Afforest\IMG_0225.JPG" />
+    <Content Include="Image\Image_Event\Afforest\Logosnc25.jpg" />
+    <Content Include="Image\Image_Event\Afforest\new1.jpg" />
+    <Content Include="Image\Image_Event\Afforest\pa01.jpg" />
+    <Content Include="Image\Image_Event\Afforest\pa021.jpg" />
+    <Content Include="Image\Image_Event\Afforest\snc06.jpg" />
+    <Content Include="Image\Image_Event\Afforest\snc08.jpg" />
+    <Content Include="Image\Image_Event\Afforest\ta01.jpg" />
+    <Content Include="Image\Image_Event\Anniversary 25\IMG_4646.JPG" />
+    <Content Include="Image\Image_Event\Anniversary 25\IMG_4669.JPG" />
+    <Content Include="Image\Image_Event\Anniversary 25\IMG_4671.JPG" />
+    <Content Include="Image\Image_Event\Anniversary 25\IMG_4677.JPG" />
+    <Content Include="Image\Image_Event\Anniversary 25\IMG_4710.JPG" />
+    <Content Include="Image\Image_Event\Anniversary 25\IMG_4734.JPG" />
+    <Content Include="Image\Image_Event\Anniversary 25\IMG_4743.JPG" />
+    <Content Include="Image\Image_Event\Anniversary 25\IMG_4750.JPG" />
+    <Content Include="Image\Image_Event\Anniversary 25\IMG_4752.JPG" />
+    <Content Include="Image\Image_Event\Anniversary 25\IMG_4755.JPG" />
+    <Content Include="Image\Image_Event\Anniversary 25\IMG_4756.JPG" />
+    <Content Include="Image\Image_Event\Anniversary 25\IMG_4757.JPG" />
+    <Content Include="Image\Image_Event\Anniversary 25\IMG_4760.JPG" />
+    <Content Include="Image\Image_Event\Anniversary 25\IMG_4761.JPG" />
+    <Content Include="Image\Image_Event\Anniversary 25\IMG_4762.JPG" />
+    <Content Include="Image\Image_Event\Anniversary 25\IMG_4765.JPG" />
+    <Content Include="Image\Image_Event\CSR\CIMG0084.JPG" />
+    <Content Include="Image\Image_Event\CSR\CIMG0096.JPG" />
+    <Content Include="Image\Image_Event\CSR\CIMG0097.JPG" />
+    <Content Include="Image\Image_Event\CSR\CIMG0098.JPG" />
+    <Content Include="Image\Image_Event\CSR\CIMG0105.JPG" />
+    <Content Include="Image\Image_Event\CSR\IMG_6128.JPG" />
+    <Content Include="Image\Image_Event\CSR\IMG_6131.JPG" />
+    <Content Include="Image\Image_Event\CSR\IMG_6285.JPG" />
+    <Content Include="Image\Image_Event\Fire_drill1\IMG_25621206_142746.jpg" />
+    <Content Include="Image\Image_Event\Fire_drill1\IMG_25621206_145051.jpg" />
+    <Content Include="Image\Image_Event\Fire_drill1\IMG_3708.JPG" />
+    <Content Include="Image\Image_Event\Fire_drill1\IMG_3712.JPG" />
+    <Content Include="Image\Image_Event\Fire_drill1\IMG_3726.JPG" />
+    <Content Include="Image\Image_Event\Fire_drill1\IMG_3731.JPG" />
+    <Content Include="Image\Image_Event\Fire_drill1\IMG_3736.JPG" />
+    <Content Include="Image\Image_Event\Fire_drill1\IMG_3743.JPG" />
+    <Content Include="Image\Image_Event\Fire_drill1\IMG_3748.JPG" />
+    <Content Include="Image\Image_Event\Fire_drill1\IMG_3752.JPG" />
+    <Content Include="Image\Image_Event\Fire_drill1\IMG_3767.JPG" />
+    <Content Include="Image\Image_Event\Fire_drill2\IMG_3963.JPG" />
+    <Content Include="Image\Image_Event\Fire_drill2\IMG_3965.JPG" />
+    <Content Include="Image\Image_Event\Fire_drill2\IMG_3966.JPG" />
+    <Content Include="Image\Image_Event\Fire_drill2\IMG_3970.JPG" />
+    <Content Include="Image\Image_Event\Fire_drill2\IMG_3971.JPG" />
+    <Content Include="Image\Image_Event\Fire_drill2\IMG_3974.JPG" />
+    <Content Include="Image\Image_Event\Fire_drill2\IMG_3983.JPG" />
+    <Content Include="Image\Image_Event\Fire_drill2\IMG_3987.JPG" />
+    <Content Include="Image\Image_Event\sport\IMG20191221075239.jpg" />
+    <Content Include="Image\Image_Event\sport\IMG20191221081231.jpg" />
+    <Content Include="Image\Image_Event\sport\IMG20191221081255.jpg" />
+    <Content Include="Image\Image_Event\sport\IMG20191221081300.jpg" />
+    <Content Include="Image\Image_Event\sport\IMG20191221081322.jpg" />
+    <Content Include="Image\Image_Event\sport\IMG20191221081350.jpg" />
+    <Content Include="Image\Image_Event\sport\IMG20191221081754.jpg" />
+    <Content Include="Image\Image_Event\sport\IMG20191221081836.jpg" />
+    <Content Include="Image\Image_Event\sport\IMG20191221083530.jpg" />
+    <Content Include="Image\Image_Event\sport\IMG20191221085049.jpg" />
+    <Content Include="Image\Image_Event\sport\IMG20191221085220.jpg" />
+    <Content Include="Image\Image_Event\sport\IMG20191221170000.jpg" />
+    <Content Include="Image\Image_Event\sport\IMG20191221175140.jpg" />
+    <Content Include="Image\Image_Event\sport\IMG20191221175154.jpg" />
+    <Content Include="Image\Image_Event\travel\10.jpg" />
+    <Content Include="Image\Image_Event\travel\101.jpg" />
+    <Content Include="Image\Image_Event\travel\106.jpg" />
+    <Content Include="Image\Image_Event\travel\11.jpg" />
+    <Content Include="Image\Image_Event\travel\112.jpg" />
+    <Content Include="Image\Image_Event\travel\113.jpg" />
+    <Content Include="Image\Image_Event\travel\118.jpg" />
+    <Content Include="Image\Image_Event\travel\121.jpg" />
+    <Content Include="Image\Image_Event\travel\124.jpg" />
+    <Content Include="Image\Image_Event\travel\125.jpg" />
+    <Content Include="Image\Image_Event\travel\143.jpg" />
+    <Content Include="Image\Image_Event\travel\15.jpg" />
+    <Content Include="Image\Image_Event\travel\161.jpg" />
+    <Content Include="Image\Image_Event\travel\166.jpg" />
+    <Content Include="Image\Image_Event\travel\185.jpg" />
+    <Content Include="Image\Image_Event\travel\188.jpg" />
+    <Content Include="Image\Image_Event\travel\193.jpg" />
+    <Content Include="Image\Image_Event\travel\194.jpg" />
+    <Content Include="Image\Image_Event\travel\199.jpg" />
+    <Content Include="Image\Image_Event\travel\2.jpg" />
+    <Content Include="Image\Image_Event\travel\201.jpg" />
+    <Content Include="Image\Image_Event\travel\202.jpg" />
+    <Content Include="Image\Image_Event\travel\205.jpg" />
+    <Content Include="Image\Image_Event\travel\220.jpg" />
+    <Content Include="Image\Image_Event\travel\225.jpg" />
+    <Content Include="Image\Image_Event\travel\239.jpg" />
+    <Content Include="Image\Image_Event\travel\3.jpg" />
+    <Content Include="Image\Image_Event\travel\4.jpg" />
+    <Content Include="Image\Image_Event\travel\40.jpg" />
+    <Content Include="Image\Image_Event\travel\44.jpg" />
+    <Content Include="Image\Image_Event\travel\5.jpg" />
+    <Content Include="Image\Image_Event\travel\52-1.jpg" />
+    <Content Include="Image\Image_Event\travel\53.jpg" />
+    <Content Include="Image\Image_Event\travel\66.jpg" />
+    <Content Include="Image\Image_Event\travel\71.jpg" />
+    <Content Include="Image\Image_Event\travel\74.jpg" />
+    <Content Include="Image\Image_Event\travel\78.jpg" />
+    <Content Include="Image\Image_Event\travel\85.jpg" />
+    <Content Include="Image\image_factory\Factory_snc1.jpg" />
+    <Content Include="Image\image_factory\IMG_20191207_093222_1.jpg" />
+    <Content Include="Image\image_factory\SNC1\IMG_20191207_092415.jpg" />
+    <Content Include="Image\image_factory\SNC1\IMG_20191207_092455.jpg" />
+    <Content Include="Image\image_factory\SNC1\IMG_20191207_092513.jpg" />
+    <Content Include="Image\image_factory\SNC1\IMG_20191207_092736.jpg" />
+    <Content Include="Image\image_factory\SNC1\IMG_20191207_093101.jpg" />
+    <Content Include="Image\image_factory\SNC1\IMG_20191207_093222_1.jpg" />
+    <Content Include="Image\image_factory\SNC2\IMG_20200220_112445.jpg" />
+    <Content Include="Image\image_factory\SNC2\IMG_20200220_112558.jpg" />
+    <Content Include="Image\image_factory\SNC2\IMG_20200220_112619.jpg" />
+    <Content Include="Image\image_factory\SNC2\IMG_20200220_112654.jpg" />
+    <Content Include="Image\image_factory\SNC2\IMG_20200220_112725.jpg" />
+    <Content Include="Image\image_factory\SNC2\IMG_20200220_112748.jpg" />
+    <Content Include="Image\Product\Felt\IMG_20200220_160522.jpg" />
+    <Content Include="Image\Product\Felt\IMG_20200224_162658.jpg" />
+    <Content Include="Image\Product\Felt\IMG_20200224_162709.jpg" />
+    <Content Include="Image\Product\Felt\IMG_20200225_090106.jpg" />
+    <Content Include="Image\Product\Hard_part\HP01.jpg" />
+    <Content Include="Image\Product\Hard_part\IMG_20200225_090140.jpg" />
+    <Content Include="Image\Product\Hard_part\IMG_20200225_090227.jpg" />
+    <Content Include="Image\Product\Hard_part\IMG_20200225_090329.jpg" />
+    <Content Include="Image\Product\Hard_part\IMG_20200225_090520.jpg" />
+    <Content Include="Image\Product\Mel\m1.jpg" />
+    <Content Include="Image\Product\Mel\m2.jpg" />
+    <Content Include="Image\Product\Mel\m3.jpg" />
+    <Content Include="Image\Product\Mel\m4.jpg" />
+    <Content Include="Image\Product\Mel\m5.jpg" />
+    <Content Include="Image\Product\Mel\m6.jpg" />
+    <Content Include="Image\Product\nittoku-Ori.jpg" />
+    <Content Include="Image\s.ico" />
+    <Content Include="Image\y2meta.com - คาวบอยหลอกดย็_เด็ก5555.mp4" />
+    <Content Include="Login_Bill.aspx" />
+    <Content Include="Policy\Personaldataprotectionpolicy.aspx" />
+    <Content Include="Register_SNC.aspx" />
+    <Content Include="Register_snc_resp.aspx" />
+    <Content Include="SQLCreateDB\SQLCreateBilling.txt" />
+    <Content Include="SqlServerTypes\Loader.cs" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="test.aspx" />
+    <Content Include="testpage1.aspx" />
+    <Content Include="TestRegister.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Billing\Add_Payment_All.aspx.designer.vb">
+      <DependentUpon>Add_Payment_All.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Billing\Add_Payment_All.aspx.vb">
+      <DependentUpon>Add_Payment_All.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Billing\Add_Payment_Main.aspx.designer.vb">
+      <DependentUpon>Add_Payment_Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Billing\Add_Payment_Main.aspx.vb">
+      <DependentUpon>Add_Payment_Main.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Billing\Billing_all.aspx.designer.vb">
+      <DependentUpon>Billing_all.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Billing\Billing_all.aspx.vb">
+      <DependentUpon>Billing_all.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Billing\Billing_all1.aspx.designer.vb">
+      <DependentUpon>Billing_all1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Billing\Billing_all1.aspx.vb">
+      <DependentUpon>Billing_all1.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Billing\Billing_confirm.aspx.designer.vb">
+      <DependentUpon>Billing_confirm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Billing\Billing_confirm.aspx.vb">
+      <DependentUpon>Billing_confirm.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Billing\Billing_supplier.aspx.designer.vb">
+      <DependentUpon>Billing_supplier.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Billing\Billing_supplier.aspx.vb">
+      <DependentUpon>Billing_supplier.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Billing\Billing_supplier_edit.aspx.designer.vb">
+      <DependentUpon>Billing_supplier_edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Billing\Billing_supplier_edit.aspx.vb">
+      <DependentUpon>Billing_supplier_edit.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Billing\Bill_list_supplier.aspx.designer.vb">
+      <DependentUpon>Bill_list_supplier.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Billing\Bill_list_supplier.aspx.vb">
+      <DependentUpon>Bill_list_supplier.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Billing\Class\class_table.vb" />
+    <Compile Include="Billing\Class\Crypto.vb" />
+    <Compile Include="Billing\Class\List_billing_create.vb" />
+    <Compile Include="ConfirmOTP.aspx.designer.vb">
+      <DependentUpon>ConfirmOTP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConfirmOTP.aspx.vb">
+      <DependentUpon>ConfirmOTP.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Cookie\cookies.vb" />
+    <Compile Include="Cookie\Cookiespolicies.aspx.designer.vb">
+      <DependentUpon>Cookiespolicies.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cookie\Cookiespolicies.aspx.vb">
+      <DependentUpon>Cookiespolicies.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Billing\Detail_payment.aspx.designer.vb">
+      <DependentUpon>Detail_payment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Billing\Detail_payment.aspx.vb">
+      <DependentUpon>Detail_payment.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Billing\Index.aspx.designer.vb">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Billing\Index.aspx.vb">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Billing\Log_billing.aspx.designer.vb">
+      <DependentUpon>Log_billing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Billing\Log_billing.aspx.vb">
+      <DependentUpon>Log_billing.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Billing\Main_bill.aspx.designer.vb">
+      <DependentUpon>Main_bill.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Billing\Main_bill.aspx.vb">
+      <DependentUpon>Main_bill.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Billing\Manage_admin_email.aspx.designer.vb">
+      <DependentUpon>Manage_admin_email.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Billing\Manage_admin_email.aspx.vb">
+      <DependentUpon>Manage_admin_email.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Billing\Manage_user.aspx.designer.vb">
+      <DependentUpon>Manage_user.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Billing\Manage_user.aspx.vb">
+      <DependentUpon>Manage_user.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Billing\Print_bill.aspx.designer.vb">
+      <DependentUpon>Print_bill.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Billing\Print_bill.aspx.vb">
+      <DependentUpon>Print_bill.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Billing\Register_Bill.aspx.designer.vb">
+      <DependentUpon>Register_Bill.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Billing\Register_Bill.aspx.vb">
+      <DependentUpon>Register_Bill.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Billing\Billing_list_tranfer.aspx.designer.vb">
+      <DependentUpon>Billing_list_tranfer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Billing\Billing_list_tranfer.aspx.vb">
+      <DependentUpon>Billing_list_tranfer.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Billing\Reset_password.aspx.designer.vb">
+      <DependentUpon>Reset_password.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Billing\Reset_password.aspx.vb">
+      <DependentUpon>Reset_password.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Billing\Test_list.aspx.designer.vb">
+      <DependentUpon>Test_list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Billing\Test_list.aspx.vb">
+      <DependentUpon>Test_list.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Billing\EditUserPage.aspx.designer.vb">
+      <DependentUpon>EditUserPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Billing\EditUserPage.aspx.vb">
+      <DependentUpon>EditUserPage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Forgetpassword\Forgetpassword.aspx.designer.vb">
+      <DependentUpon>Forgetpassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forgetpassword\Forgetpassword.aspx.vb">
+      <DependentUpon>Forgetpassword.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Forgetpassword\ResetPassword.aspx.designer.vb">
+      <DependentUpon>ResetPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forgetpassword\ResetPassword.aspx.vb">
+      <DependentUpon>ResetPassword.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Login_Bill.aspx.designer.vb">
+      <DependentUpon>Login_Bill.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login_Bill.aspx.vb">
+      <DependentUpon>Login_Bill.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="masterpageBill.Master.designer.vb">
+      <DependentUpon>masterpageBill.Master</DependentUpon>
+    </Compile>
+    <Compile Include="masterpageBill.Master.vb">
+      <DependentUpon>masterpageBill.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage\MasterBillingPage.Master.designer.vb">
+      <DependentUpon>MasterBillingPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage\MasterBillingPage.Master.vb">
+      <DependentUpon>MasterBillingPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Module_01_bill.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Policy\Personaldataprotectionpolicy.aspx.designer.vb">
+      <DependentUpon>Personaldataprotectionpolicy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Policy\Personaldataprotectionpolicy.aspx.vb">
+      <DependentUpon>Personaldataprotectionpolicy.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Register_SNC.aspx.designer.vb">
+      <DependentUpon>Register_SNC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Register_SNC.aspx.vb">
+      <DependentUpon>Register_SNC.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Register_snc_resp.aspx.designer.vb">
+      <DependentUpon>Register_snc_resp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Register_snc_resp.aspx.vb">
+      <DependentUpon>Register_snc_resp.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="test.aspx.designer.vb">
+      <DependentUpon>test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="test.aspx.vb">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="test1.Master.designer.vb">
+      <DependentUpon>test1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="test1.Master.vb">
+      <DependentUpon>test1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="testpage1.aspx.designer.vb">
+      <DependentUpon>testpage1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="testpage1.aspx.vb">
+      <DependentUpon>testpage1.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="TestRegister.aspx.designer.vb">
+      <DependentUpon>TestRegister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestRegister.aspx.vb">
+      <DependentUpon>TestRegister.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="WEBSNCNEW_BILLDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WEBSNCNEW_BILLDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="WEBSNCNEW_BILLDataSet01.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WEBSNCNEW_BILLDataSet01.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="WEBSNCNEW_BILLDataSetV3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WEBSNCNEW_BILLDataSetV3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="WEBSNCNEW_BILLDataSetV6.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WEBSNCNEW_BILLDataSetV6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="WEBSNCNEW_BILLDataSet_NEW_V2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WEBSNCNEW_BILLDataSet_NEW_V2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="WEBSNCNEW_BILLDataSet_NEW_V2.vb">
+      <DependentUpon>WEBSNCNEW_BILLDataSet_NEW_V2.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Billing\Report_rldc\Report_Tranfer.rdlc" />
+    <EmbeddedResource Include="Billing\Report_rldc\Report2_Comservice.rdlc" />
+    <EmbeddedResource Include="Billing\Report_rldc\Report_Bill_Supplier.rdlc" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="masterpageBill.Master" />
+    <Content Include="Billing\File\112009 3.xlsx" />
+    <Content Include="MasterPage\MasterBillingPage.Master" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\PublishProfiles\CustomProfile.pubxml" />
+    <None Include="My Project\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="My Project\PublishProfiles\local.pubxml" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+    <Content Include="test1.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="WEBSNCNEW_BILLDataSet.xsc">
+      <DependentUpon>WEBSNCNEW_BILLDataSet.xsd</DependentUpon>
+    </Content>
+    <None Include="WEBSNCNEW_BILLDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>WEBSNCNEW_BILLDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="WEBSNCNEW_BILLDataSet.xss">
+      <DependentUpon>WEBSNCNEW_BILLDataSet.xsd</DependentUpon>
+    </Content>
+    <Content Include="WEBSNCNEW_BILLDataSet01.xsc">
+      <DependentUpon>WEBSNCNEW_BILLDataSet01.xsd</DependentUpon>
+    </Content>
+    <None Include="WEBSNCNEW_BILLDataSet01.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>WEBSNCNEW_BILLDataSet01.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="WEBSNCNEW_BILLDataSet01.xss">
+      <DependentUpon>WEBSNCNEW_BILLDataSet01.xsd</DependentUpon>
+    </Content>
+    <Content Include="WEBSNCNEW_BILLDataSet_NEW_V2.xsc">
+      <DependentUpon>WEBSNCNEW_BILLDataSet_NEW_V2.xsd</DependentUpon>
+    </Content>
+    <Content Include="WEBSNCNEW_BILLDataSetV3.xsc">
+      <DependentUpon>WEBSNCNEW_BILLDataSetV3.xsd</DependentUpon>
+    </Content>
+    <None Include="WEBSNCNEW_BILLDataSetV3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>WEBSNCNEW_BILLDataSetV3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="WEBSNCNEW_BILLDataSetV3.xss">
+      <DependentUpon>WEBSNCNEW_BILLDataSetV3.xsd</DependentUpon>
+    </Content>
+    <Content Include="WEBSNCNEW_BILLDataSetV6.xsc">
+      <DependentUpon>WEBSNCNEW_BILLDataSetV6.xsd</DependentUpon>
+    </Content>
+    <None Include="WEBSNCNEW_BILLDataSetV6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>WEBSNCNEW_BILLDataSetV6.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="WEBSNCNEW_BILLDataSetV6.xss">
+      <DependentUpon>WEBSNCNEW_BILLDataSetV6.xsd</DependentUpon>
+    </Content>
+    <None Include="WEBSNCNEW_BILLDataSet_NEW_V2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>WEBSNCNEW_BILLDataSet_NEW_V2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="WEBSNCNEW_BILLDataSet_NEW_V2.xss">
+      <DependentUpon>WEBSNCNEW_BILLDataSet_NEW_V2.xsd</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Billing\File_Supplier\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52820</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:52820/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

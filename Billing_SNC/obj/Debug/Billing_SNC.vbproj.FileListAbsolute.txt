@@ -1,0 +1,592 @@
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\SqlServerTypes\x64\msvcr120.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\SqlServerTypes\x86\msvcr120.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\Billing_SNC.dll.config
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\Billing_SNC.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\Billing_SNC.pdb
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\Billing_SNC.xml
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\csc.exe
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\csc.exe.config
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\csc.rsp
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\csi.exe
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\csi.exe.config
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\csi.rsp
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\System.AppContext.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\System.Console.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\System.IO.Compression.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\System.IO.Pipes.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\System.Security.Claims.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\System.ValueTuple.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\vbc.exe
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\vbc.exe.config
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\vbc.rsp
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\VBCSCompiler.exe
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\EPPlus.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\ExcelDataReader.DataSet.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\ExcelDataReader.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\Microsoft.ReportViewer.Design.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\Microsoft.ReportViewer.WebDesign.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\Microsoft.SqlServer.Types.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\EnvDTE.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\Microsoft.ReportViewer.WinForms.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\stdole.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\Microsoft.MSXML.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\EPPlus.xml
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\ExcelDataReader.pdb
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\ExcelDataReader.xml
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\ExcelDataReader.DataSet.pdb
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\ExcelDataReader.DataSet.xml
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\obj\Debug\Billing_SNC.vbprojAssemblyReference.cache
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\obj\Debug\Billing_SNC.Resources.resources
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\obj\Debug\Billing_SNC.vbproj.GenerateResource.cache
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\obj\Debug\RdlCompile.cache
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\obj\Debug\RdlCompile.compiled
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\obj\Debug\Billing_SNC.vbproj.CoreCompileInputs.cache
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\obj\Debug\Billing_SNC.vbproj.CopyComplete
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\obj\Debug\Billing_SNC.dll
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\obj\Debug\Billing_SNC.xml
+C:\Users\nattiko\source\repos\Web_SNC\Billing_SNC\obj\Debug\Billing_SNC.pdb
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\SqlServerTypes\x64\msvcr120.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\SqlServerTypes\x86\msvcr120.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\Billing_SNC.dll.config
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\Billing_SNC.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\Billing_SNC.pdb
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\Billing_SNC.xml
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\csc.exe
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\csc.exe.config
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\csc.rsp
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\csi.exe
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\csi.exe.config
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\csi.rsp
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\System.AppContext.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\System.Console.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\System.IO.Compression.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\System.IO.Pipes.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\System.Security.Claims.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\System.ValueTuple.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\vbc.exe
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\vbc.exe.config
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\vbc.rsp
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\VBCSCompiler.exe
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\EPPlus.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\ExcelDataReader.DataSet.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\ExcelDataReader.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\Microsoft.ReportViewer.Design.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\Microsoft.ReportViewer.WebDesign.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\Microsoft.SqlServer.Types.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\EnvDTE.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\Microsoft.ReportViewer.WinForms.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\stdole.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\Microsoft.MSXML.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\EPPlus.xml
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\ExcelDataReader.pdb
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\ExcelDataReader.xml
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\ExcelDataReader.DataSet.pdb
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\ExcelDataReader.DataSet.xml
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\obj\Debug\Billing_SNC.vbprojAssemblyReference.cache
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\obj\Debug\Billing_SNC.Resources.resources
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\obj\Debug\Billing_SNC.vbproj.GenerateResource.cache
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\obj\Debug\RdlCompile.cache
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\obj\Debug\RdlCompile.compiled
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\obj\Debug\Billing_SNC.vbproj.CoreCompileInputs.cache
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\obj\Debug\Billing_SNC.vbproj.CopyComplete
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\obj\Debug\Billing_SNC.dll
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\obj\Debug\Billing_SNC.xml
+C:\Users\promnarin\Desktop\web test\Web file\Web_SNC\Billing_SNC\obj\Debug\Billing_SNC.pdb
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\SqlServerTypes\x64\msvcr120.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\SqlServerTypes\x86\msvcr120.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\Billing_SNC.dll.config
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\Billing_SNC.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\Billing_SNC.pdb
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\Billing_SNC.xml
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\csc.exe
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\csc.exe.config
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\csc.rsp
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\csi.exe
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\csi.exe.config
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\csi.rsp
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.Managed.Core.targets
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\System.AppContext.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\System.Collections.Immutable.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\System.Console.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\System.IO.Compression.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\System.IO.FileSystem.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\System.IO.Pipes.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\System.Reflection.Metadata.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\System.Security.AccessControl.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\System.Security.Claims.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\System.Security.Principal.Windows.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\System.ValueTuple.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\System.Xml.XmlDocument.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\System.Xml.XPath.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\vbc.exe
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\vbc.exe.config
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\vbc.rsp
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\VBCSCompiler.exe
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\roslyn\VBCSCompiler.exe.config
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\EPPlus.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\ExcelDataReader.DataSet.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\ExcelDataReader.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\Microsoft.ReportViewer.Common.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\Microsoft.ReportViewer.DataVisualization.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\Microsoft.ReportViewer.Design.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\Microsoft.ReportViewer.WebDesign.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\Microsoft.ReportViewer.WebForms.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\Microsoft.SqlServer.Types.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\EnvDTE.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\Microsoft.VisualStudio.Shell.Interop.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\Microsoft.ReportViewer.WinForms.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\stdole.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\Microsoft.VisualStudio.OLE.Interop.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\Microsoft.MSXML.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\EPPlus.xml
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\ExcelDataReader.pdb
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\ExcelDataReader.xml
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\ExcelDataReader.DataSet.pdb
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\ExcelDataReader.DataSet.xml
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\de\Microsoft.ReportViewer.Common.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\es\Microsoft.ReportViewer.Common.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\it\Microsoft.ReportViewer.Common.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\de\Microsoft.ReportViewer.Design.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\es\Microsoft.ReportViewer.Design.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\it\Microsoft.ReportViewer.Design.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\obj\Debug\Billing_SNC.vbprojAssemblyReference.cache
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\obj\Debug\Billing_SNC.Resources.resources
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\obj\Debug\Billing_SNC.vbproj.GenerateResource.cache
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\obj\Debug\RdlCompile.cache
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\obj\Debug\RdlCompile.compiled
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\obj\Debug\Billing_SNC.vbproj.CoreCompileInputs.cache
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\obj\Debug\Billing_SNC.vbproj.CopyComplete
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\obj\Debug\Billing_SNC.dll
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\obj\Debug\Billing_SNC.xml
+D:\NEWNEW\backup WEB_SNC 15092022\Web_SNC\Billing_SNC\obj\Debug\Billing_SNC.pdb
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\SqlServerTypes\x64\msvcr120.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\SqlServerTypes\x86\msvcr120.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\Billing_SNC.dll.config
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\Billing_SNC.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\Billing_SNC.pdb
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\Billing_SNC.xml
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\csc.exe
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\csc.exe.config
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\csc.rsp
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\csi.exe
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\csi.exe.config
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\csi.rsp
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.Managed.Core.targets
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\System.AppContext.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\System.Collections.Immutable.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\System.Console.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\System.IO.Compression.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\System.IO.FileSystem.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\System.IO.Pipes.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\System.Reflection.Metadata.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\System.Security.AccessControl.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\System.Security.Claims.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\System.Security.Principal.Windows.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\System.ValueTuple.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\System.Xml.XmlDocument.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\System.Xml.XPath.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\vbc.exe
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\vbc.exe.config
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\vbc.rsp
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\VBCSCompiler.exe
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\roslyn\VBCSCompiler.exe.config
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\EPPlus.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\ExcelDataReader.DataSet.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\ExcelDataReader.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\Microsoft.ReportViewer.Common.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\Microsoft.ReportViewer.DataVisualization.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\Microsoft.ReportViewer.Design.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\Microsoft.ReportViewer.WebDesign.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\Microsoft.ReportViewer.WebForms.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\Microsoft.SqlServer.Types.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\EnvDTE.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\Microsoft.ReportViewer.WinForms.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\stdole.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\EPPlus.xml
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\ExcelDataReader.pdb
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\ExcelDataReader.xml
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\ExcelDataReader.DataSet.pdb
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\ExcelDataReader.DataSet.xml
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\de\Microsoft.ReportViewer.Common.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\es\Microsoft.ReportViewer.Common.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\it\Microsoft.ReportViewer.Common.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\de\Microsoft.ReportViewer.Design.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\es\Microsoft.ReportViewer.Design.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\it\Microsoft.ReportViewer.Design.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\obj\Debug\Billing_SNC.Resources.resources
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\obj\Debug\Billing_SNC.vbproj.GenerateResource.cache
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\obj\Debug\Billing_SNC.vbproj.CoreCompileInputs.cache
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\obj\Debug\Billing_SNC.dll
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\obj\Debug\Billing_SNC.xml
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\obj\Debug\Billing_SNC.pdb
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\obj\Debug\Billing_SNC.vbproj.AssemblyReference.cache
+D:\NEWNEW\WEB\แก้ไขหน้าเว็บ\Web_SNC\Billing_SNC\obj\Debug\Billing_.EA067C3F.Up2Date
