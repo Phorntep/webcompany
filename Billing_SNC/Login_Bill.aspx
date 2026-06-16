@@ -14,7 +14,6 @@
         <asp:UpdatePanel ID="UpdatePanel1" runat="server">
             <ContentTemplate>
 
-
                 <div style="width: 100%;">
                     <div style="width: 350px; height: auto; margin: 0 auto; margin-top: 20px; border: 2px solid gray; background-color: rgba(0,0,0,0.7); border-radius: 15px; padding: 10px;">
                         <div style="width: 100%; text-align: center;">

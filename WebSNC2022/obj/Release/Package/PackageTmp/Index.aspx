@@ -13,7 +13,7 @@
 
             </div>
         </div>--%>
-        <style>
+<style>
   /* ทำฉากหลังโมดัลให้ดำและโปร่ง */
   .modal-backdrop.show {
     background-color: #000;
@@ -54,9 +54,6 @@
     box-shadow: 0 0 0 1px rgba(255,255,255,.06), 0 10px 30px rgba(0,0,0,.5);
   }
 </style>
-
-
-
 
         <!-- Carousel Start -->
         <div class="container-fluid p-0 wow fadeIn" data-wow-delay="0.1s">
@@ -105,13 +102,13 @@
     <!-- Modal: Tribute -->
 <div class="modal fade" id="modalTribute" tabindex="-1" aria-labelledby="modalTributeLabel"
      aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
     <div class="modal-content border-0">
    
 
       <div class="modal-body">
         <div class="text-center mb-3">
-          <img src="<%= ResolveUrl("~/Image/Image_Event/Queen/queen.png") %>" 
+          <img src="<%= ResolveUrl("~/Image/Image_Event/Queen/Printcess.png") %>" 
                alt="ภาพประกอบแสดงความอาลัย" class="img-fluid rounded" />
         </div>
 
