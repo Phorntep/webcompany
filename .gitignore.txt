@@ -45,6 +45,7 @@ wwwroot/lib/
 # Misc
 *.tmp
 *.cache
+*.db
 Thumbs.db
 ehthumbs.db
 [Dd]esktop.ini
