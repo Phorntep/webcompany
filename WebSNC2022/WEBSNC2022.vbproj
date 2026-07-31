@@ -117,9 +117,12 @@
     <Content Include="fortest\owl.theme.default.min.css" />
     <Content Include="fortest\templatemo-style.css" />
     <Content Include="Image\Certification\46ce866c2064d33.jpg" />
+    <Content Include="Image\Certification\46ce866c2064d33.png" />
     <Content Include="Image\Certification\Cer-SNC_2.jpg" />
+    <Content Include="Image\Certification\certificate_6c44e0b152_cfo_0.jpeg" />
     <Content Include="Image\Certification\iatf16949-iso9001_edited-03.jpg" />
     <Content Include="Image\Certification\Cer_snc_1.jpg" />
+    <Content Include="Image\Certification\Slide1.JPG" />
     <Content Include="Image\Certification\URS-1.png" />
     <Content Include="Image\Certification\URS-3.png" />
     <Content Include="Image\Customer\customer.jpg" />
@@ -400,6 +403,7 @@
     <Content Include="Policy_Personal_Data_Protection.aspx" />
     <Content Include="Policy_Privacy.aspx" />
     <Content Include="Policy_Cookie.aspx" />
+    <Content Include="Policy_BusinessCodeOfConduct.aspx" />
     <Content Include="Product_Page.aspx" />
     <Content Include="ProductsPage\HardPartPage.aspx" />
     <Content Include="ProductsPage\MelPage.aspx" />
@@ -575,6 +579,13 @@
       <DependentUpon>Policy_Cookie.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="Policy_BusinessCodeOfConduct.aspx.designer.vb">
+      <DependentUpon>Policy_BusinessCodeOfConduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Policy_BusinessCodeOfConduct.aspx.vb">
+      <DependentUpon>Policy_BusinessCodeOfConduct.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Product_Page.aspx.designer.vb">
       <DependentUpon>Product_Page.aspx</DependentUpon>
     </Compile>
@@ -711,6 +722,9 @@
     <Content Include="scss\bootstrap\scss\_utilities.scss" />
     <Content Include="scss\bootstrap\scss\_variables.scss" />
     <None Include="packages.config" />
+    <Content Include="PDF\2568 %28Use%29 บค.014-2568 จรรยาบรรณทางธุรกิจ %28 CODE OF CONDUCT %29 ปรับปรุงครั้งที่ 1.pdf" />
+    <Content Include="PDF\บค.010-2569 นโยบายการต่อต้าน และป้องกันการทุจริตคอร์รัปชัน %28ปรับปรุง ครั้งที่ 1%29.pdf" />
+    <Content Include="PDF\บค.011-2569 มาตรการคุ้มครองสิทธิแก่ผู้แจ้งเบาะแส %28ปรับปรุง ครั้งที่ 1%29.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

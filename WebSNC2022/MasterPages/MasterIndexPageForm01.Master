@@ -1,4 +1,4 @@
-﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="MasterIndexPageForm01.master.vb" Inherits="WEBSNC2022.MasterIndexPageForm01" %>
+﻿ <%@ Master Language="VB" AutoEventWireup="false" CodeBehind="MasterIndexPageForm01.master.vb" Inherits="WEBSNC2022.MasterIndexPageForm01" %>
 
 <!DOCTYPE html>
 <html>

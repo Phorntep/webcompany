@@ -17,6 +17,7 @@
                         <li class="mx-2"  data-filter=".first"><a href="../Policy_Cookie.aspx" >Cookies Policy</a></li>
                         <li class="mx-2" data-filter=".second"><a href="../Policy_Personal_Data_Protection.aspx" >Personal Data Protection Policy</a></li>
                         <li class="mx-2" data-filter=".third"><a href="../Policy_PrivacyAndNotice.aspx" >ข้อกฎหมายและสิทธิส่วนบุคคล</a></li>
+                        <li class="mx-2" data-filter=".fourth"><a href="../Policy_BusinessCodeOfConduct.aspx" >จรรยาบรรณทางธุรกิจ</a></li>
                     </ul>
                 </div>
             </div>
@@ -27,7 +28,6 @@
                     <div >
                     
                     <h1 class="display-5 mb-5">นโยบายความเป็นส่วนตัว (Privacy Policy)</h1>
-                    
                     
                 </div>
                     <div >

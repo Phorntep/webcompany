@@ -13,47 +13,132 @@
 
             </div>
         </div>--%>
-<style>
-  /* ทำฉากหลังโมดัลให้ดำและโปร่ง */
-  .modal-backdrop.show {
-    background-color: #000;
-    opacity: .9; /* เข้ม/จาง ปรับได้ .6 - .95 */
-  }
+        <style>
+            /* ทำฉากหลังโมดัลให้ดำและโปร่ง */
+            .modal-backdrop.show {
+                background-color: #000;
+                opacity: .9; /* เข้ม/จาง ปรับได้ .6 - .95 */
+            }
 
-  /* ตัวกล่องป๊อปอัปโทนดำสุภาพ */
-  #modalTribute .modal-content {
-    background: #0e0e0e;  /* ดำหม่น */
-    color: #f0f0f0;
-    border: none;
-    border-radius: 14px;
-    box-shadow: 0 20px 60px rgba(0,0,0,.6);
-  }
+            /* ตัวกล่องป๊อปอัปโทนดำสุภาพ */
+            #modalTribute .modal-content {
+                background: transparent;
+                color: #f0f0f0;
+                border: none;
+                border-radius: 14px;
+                box-shadow: 0 20px 60px rgba(0,0,0,.6);
+            }
 
-  /* เส้นแบ่งจาง ๆ */
-  #modalTribute .modal-header,
-  #modalTribute .modal-footer {
-    border-color: rgba(255,255,255,.08) !important;
-  }
+            /* เส้นแบ่งจาง ๆ */
+            #modalTribute .modal-header,
+            #modalTribute .modal-footer {
+                border-color: rgba(255,255,255,.08) !important;
+            }
 
-  /* ปุ่มปิดและปุ่มดำ */
-  #modalTribute .btn-close {
-    filter: invert(1) opacity(.7);
-  }
-  #modalTribute .btn-dark {
-    background: #1a1a1a;
-    border-color: #1a1a1a;
-  }
-  #modalTribute .btn-dark:hover {
-    background: #222;
-    border-color: #222;
-  }
+            /* ปุ่มปิดและปุ่มดำ */
+            #modalTribute .btn-close {
+                filter: invert(1) opacity(.7);
+            }
 
-  /* รูปให้ขอบจาง ๆ */
-  #modalTribute img.img-fluid {
-    border-radius: 10px;
-    box-shadow: 0 0 0 1px rgba(255,255,255,.06), 0 10px 30px rgba(0,0,0,.5);
-  }
-</style>
+            #modalTribute .btn-dark {
+                background: #1a1a1a;
+                border-color: #1a1a1a;
+            }
+
+                #modalTribute .btn-dark:hover {
+                    background: #222;
+                    border-color: #222;
+                }
+
+            /* รูปให้ขอบจาง ๆ */
+            #modalTribute img.img-fluid {
+                border-radius: 10px;
+                box-shadow: 0 0 0 1px rgba(255,255,255,.06), 0 10px 30px rgba(0,0,0,.5);
+            }
+
+
+            .certification-img {
+                width: 180px;
+                height: 220px;
+                object-fit: contain;
+                background-color: white;
+                padding: 8px;
+                margin: 10px auto;
+            }
+
+            #certificationCarousel .carousel-item {
+                min-height: 250px;
+            }
+
+            #certificationCarousel .carousel-control-prev,
+            #certificationCarousel .carousel-control-next {
+                width: 5%;
+            }
+
+            #certificationCarousel .carousel-indicators {
+                bottom: -35px;
+            }
+
+            .certification-box {
+                width: 100%;
+                height: 260px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 10px;
+            }
+
+                .certification-box img {
+                    max-width: 100%;
+                    max-height: 240px;
+                    width: auto;
+                    height: auto;
+                    object-fit: contain;
+                    background: white;
+                    border-radius: 4px;
+                    padding: 5px;
+                    cursor: pointer;
+                    transition: transform 0.2s ease;
+                }
+
+            .certificate-modal {
+                background: rgba(0, 0, 0, 0.85);
+                border: none;
+            }
+
+            .certificate-preview {
+                max-width: 90vw;
+                max-height: 90vh;
+                width: auto;
+                height: auto;
+                object-fit: contain;
+                box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+            }
+
+            .certificate-close {
+                position: absolute;
+                top: 20px;
+                right: 25px;
+                z-index: 1055;
+                font-size: 1.2rem;
+            }
+
+            /* Mobile */
+            @media (max-width: 575px) {
+                .certification-img {
+                    width: 180px;
+                    height: 220px;
+                }
+
+                #certificationCarousel .carousel-item {
+                    min-height: 250px;
+                }
+            }
+
+            .certification-box img:hover {
+                transform: scale(1.05);
+            }
+        </style>
 
         <!-- Carousel Start -->
         <div class="container-fluid p-0 wow fadeIn" data-wow-delay="0.1s">
@@ -100,58 +185,58 @@
     </header>
 
     <!-- Modal: Tribute -->
-<div class="modal fade" id="modalTribute" tabindex="-1" aria-labelledby="modalTributeLabel"
-     aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
-  <div class="modal-dialog modal-xl modal-dialog-centered">
-    <div class="modal-content border-0">
-   
+    <div class="modal fade" id="modalTribute" tabindex="-1" aria-labelledby="modalTributeLabel"
+        aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content border-0">
 
-      <div class="modal-body">
-        <div class="text-center mb-3">
-          <img src="<%= ResolveUrl("~/Image/Image_Event/Queen/Printcess.png") %>" 
-               alt="ภาพประกอบแสดงความอาลัย" class="img-fluid rounded" />
+
+                <div class="modal-body">
+                    <div class="text-center mb-3">
+                        <img src="<%= ResolveUrl("~/Image/Image_Event/Queen/Printcess.png") %>"
+                            alt="ภาพประกอบแสดงความอาลัย" class="img-fluid rounded" />
+                    </div>
+
+
+                </div>
+
+                <div class="modal-footer border-0 justify-content-center">
+                    <button type="button" class="btn btn-dark px-4" data-bs-dismiss="modal">Visit to website </button>
+                </div>
+            </div>
         </div>
-
-       
-      </div>
-
-      <div class="modal-footer border-0 justify-content-center">
-        <button type="button" class="btn btn-dark px-4" data-bs-dismiss="modal">Visit to website </button>
-      </div>
     </div>
-  </div>
-</div>
 
-<script>
-// แสดงครั้งเดียวต่อวันด้วย localStorage
-(function () {
-  //const KEY = "snc_tribute_seen";
-  //const today = new Date().toISOString().slice(0,10); // YYYY-MM-DD
-  //const seen = localStorage.getItem(KEY);
+    <script>
+        // แสดงครั้งเดียวต่อวันด้วย localStorage
+        (function () {
+            //const KEY = "snc_tribute_seen";
+            //const today = new Date().toISOString().slice(0,10); // YYYY-MM-DD
+            //const seen = localStorage.getItem(KEY);
 
-  //function showModal() {
-  //  // ต้องมี bootstrap.bundle.min.js ใน MasterPage
-  //  var modal = new bootstrap.Modal(document.getElementById('modalTribute'));
-  //  modal.show();
-  //}
+            //function showModal() {
+            //  // ต้องมี bootstrap.bundle.min.js ใน MasterPage
+            //  var modal = new bootstrap.Modal(document.getElementById('modalTribute'));
+            //  modal.show();
+            //}
 
-  // เปิดอัตโนมัติเมื่อโหลดหน้า (หน่วงเล็กน้อยให้ asset โหลดทัน)
-  //document.addEventListener('DOMContentLoaded', function () {
-    //if (seen !== today) {
-      //setTimeout(showModal, 400);
-      //localStorage.setItem(KEY, today);
-    //}
-    //});
-    document.addEventListener('DOMContentLoaded', function () {
-        var el = document.getElementById('modalTribute');
-        if (el) {
-            var modal = new bootstrap.Modal(el);
-            // หน่วงเล็กน้อยเผื่อภาพ/asset ใหญ่
-            setTimeout(function () { modal.show(); }, 300);
-        }
-    });
-})();
-</script>
+            // เปิดอัตโนมัติเมื่อโหลดหน้า (หน่วงเล็กน้อยให้ asset โหลดทัน)
+            //document.addEventListener('DOMContentLoaded', function () {
+            //if (seen !== today) {
+            //setTimeout(showModal, 400);
+            //localStorage.setItem(KEY, today);
+            //}
+            //});
+            document.addEventListener('DOMContentLoaded', function () {
+                var el = document.getElementById('modalTribute');
+                if (el) {
+                    var modal = new bootstrap.Modal(el);
+                    // หน่วงเล็กน้อยเผื่อภาพ/asset ใหญ่
+                    setTimeout(function () { modal.show(); }, 300);
+                }
+            });
+        })();
+    </script>
 
 
     <!-- About Start -->
@@ -195,30 +280,155 @@
     </div>
     <!-- About End -->
     <!-- Facts Start -->
-    <div class="container-fluid facts my-5 py-5" data-parallax="scroll" data-image-src="Image/image_factory/SNC1/IMG_20191207_092513.jpg">
+    <div class="container-fluid facts my-5 py-5"
+        data-parallax="scroll"
+        data-image-src="Image/image_factory/SNC1/IMG_20191207_092513.jpg">
+
         <div class="container py-5">
-            <div class="row">
-                <div class="col-sm-4 col-lg-2 text-center wow fadeIn" data-wow-delay="0.1s">
-                    <img src="Image/Certification/iatf16949-iso9001_edited-03.jpg" class="d-block img-thumbnail  " style="height: 10rem; width: 10rem;" />
+
+            <div id="certificationCarousel"
+                class="carousel slide"
+                data-bs-ride="carousel"
+                data-bs-interval="3000">
+
+                <div class="carousel-inner">
+
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center align-items-center">
+
+                            <!-- Certificate 1 -->
+                            <div class="col-12 col-sm-6 col-lg-3 text-center">
+                                <div class="certification-box">
+                                    <img src="Image/Certification/iatf16949-iso9001_edited-03.jpg"
+                                        alt="IATF 16949 ISO 9001"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#certificateModal"
+                                        onclick="showCertificate(this.src)"
+                                        style="cursor: pointer;">
+                                </div>
+                            </div>
+
+                            <!-- Certificate 2 -->
+                            <div class="col-12 col-sm-6 col-lg-3 text-center">
+                                <div class="certification-box">
+                                    <img src="Image/Certification/URS-3.png"
+                                        alt="URS Certification"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#certificateModal"
+                                        onclick="showCertificate(this.src)"
+                                        style="cursor: pointer;">
+                                </div>
+                            </div>
+
+                            <!-- Certificate 3 -->
+                            <div class="col-12 col-sm-6 col-lg-3 text-center">
+                                <div class="certification-box">
+                                    <img src="Image/Certification/46ce866c2064d33.png"
+                                        alt="ISO 14001"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#certificateModal"
+                                        onclick="showCertificate(this.src)"
+                                        style="cursor: pointer;">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="row justify-content-center align-items-center">
+
+                            <div class="col-12 col-sm-6 col-lg-3 text-center">
+                                <div class="certification-box">
+                                    <img src="Image/Certification/Cer_snc_1.jpg"
+                                        alt="SNC Certification"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#certificateModal"
+                                        onclick="showCertificate(this.src)"
+                                        style="cursor: pointer;">
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-6 col-lg-3 text-center">
+                                <div class="certification-box">
+                                    <img src="Image/Certification/Cer-SNC_2.jpg"
+                                        alt="SNC Certification"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#certificateModal"
+                                        onclick="showCertificate(this.src)"
+                                        style="cursor: pointer;">
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-6 col-lg-3 text-center">
+                                <div class="certification-box">
+                                    <img src="Image/Certification/certificate_6c44e0b152_cfo_0.jpeg"
+                                        alt="CFO Certification"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#certificateModal"
+                                        onclick="showCertificate(this.src)"
+                                        style="cursor: pointer;">
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-6 col-lg-3 text-center">
+                                <div class="certification-box">
+                                    <img src="Image/Certification/Slide1.jpg"
+                                        alt="Certification"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#certificateModal"
+                                        onclick="showCertificate(this.src)"
+                                        style="cursor: pointer;">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
 
                 </div>
-                <div class="col-sm-4 col-lg-2 text-center wow fadeIn" data-wow-delay="0.3s">
-                    <img src="Image/Certification/URS-3.png" class="d-block img-thumbnail rounded " style="height: 10rem; width: 15rem;" />
+
+                <!-- Previous -->
+                <button class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#certificationCarousel"
+                    data-bs-slide="prev">
+
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="visually-hidden">Previous</span>
+
+                </button>
+
+                <!-- Next -->
+                <button class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#certificationCarousel"
+                    data-bs-slide="next">
+
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="visually-hidden">Next</span>
+
+                </button>
+
+                <!-- Indicators -->
+                <div class="carousel-indicators">
+
+                    <button type="button"
+                        data-bs-target="#certificationCarousel"
+                        data-bs-slide-to="0"
+                        class="active">
+                    </button>
+
+                    <button type="button"
+                        data-bs-target="#certificationCarousel"
+                        data-bs-slide-to="1">
+                    </button>
 
                 </div>
-                <div class="col-sm-4 col-lg-2 text-center wow fadeIn" data-wow-delay="0.5s">
-                    <img src="Image/Certification/46ce866c2064d33.jpg" class="d-block img-thumbnail " style="height: 10rem; width: 15rem;" />
 
-                </div>
-                <div class="col-sm-4 col-lg-2 text-center wow fadeIn" data-wow-delay="0.7s">
-                    <img src="Image/Certification/Cer_snc_1.jpg" style="height: 15rem; width: 10rem;" />
-
-                </div>
-                <div class="col-sm-4 col-lg-2 text-center wow fadeIn" data-wow-delay="0.9s">
-                    <img src="Image/Certification/Cer-SNC_2.jpg" style="height: 15rem; width: 10rem;" />
-
-                </div>
             </div>
+
         </div>
     </div>
     <!-- Facts End -->
@@ -372,42 +582,42 @@
     </section>
 
     <section id="Contact">
-        
-            <div class="container">
-                <div class="row g-5">
-                    <div class="  col-12   ">
-                        <div class=" text-center text-dark">
-                            <div>
-                                <h1 style="font-size: 35px;">Contact</h1>
-                            </div>
+
+        <div class="container">
+            <div class="row g-5">
+                <div class="  col-12   ">
+                    <div class=" text-center text-dark">
+                        <div>
+                            <h1 style="font-size: 35px;">Contact</h1>
                         </div>
                     </div>
-
                 </div>
 
-            
+            </div>
+
+
             <!-- Contact SNC 1 Start -->
             <div class="container-xxl py-5">
                 <div class="container">
-                <div class="row g-5">
-                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s" style="min-height: 200px;">
-                        <h3>SNC1</h3>
-                        <p class="mb-4">700/302 Moo 6, Bangna-Trad Rd. Km. 57, Don Hua Lau, Muang Chonburi, Chonburi, 20000 </p>
-                        <p class="mb-4">Thailand Tel : 0 3845 7081 - 088  </p>
-                        <p class="mb-4">Fax.0 3845 7093</p>
-                       
-                    </div>
+                    <div class="row g-5">
+                        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s" style="min-height: 200px;">
+                            <h3>SNC1</h3>
+                            <p class="mb-4">700/302 Moo 6, Bangna-Trad Rd. Km. 57, Don Hua Lau, Muang Chonburi, Chonburi, 20000 </p>
+                            <p class="mb-4">Thailand Tel : 0 3845 7081 - 088  </p>
+                            <p class="mb-4">Fax.0 3845 7093</p>
 
-                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s" style="min-height: 200px;">
-                        <div class="position-relative rounded overflow-hidden h-100">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3880.6702013242298!2d101.02740587596631!3d13.432729586926717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d36f93143b529%3A0x5f4c21235bccabfa!2sSNC%20Sound%20Proof%20Company%20Limited!5e0!3m2!1sen!2sth!4v1708419616060!5m2!1sen!2sth" width="600" height="150" style="border: 0;"></iframe>
                         </div>
-                    </div>
 
+                        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s" style="min-height: 200px;">
+                            <div class="position-relative rounded overflow-hidden h-100">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3880.6702013242298!2d101.02740587596631!3d13.432729586926717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d36f93143b529%3A0x5f4c21235bccabfa!2sSNC%20Sound%20Proof%20Company%20Limited!5e0!3m2!1sen!2sth!4v1708419616060!5m2!1sen!2sth" width="600" height="150" style="border: 0;"></iframe>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Contact SNC1 End -->
                 </div>
-                <!-- Contact SNC1 End -->
             </div>
-                </div> 
 
             <!-- Contact SNC2 Start -->
             <div class="container-xxl py-5">
@@ -434,27 +644,31 @@
             </div>
         </div>
     </section>
+    <div class="modal fade" id="certificateModal" tabindex="-1" aria-hidden="true">
 
-    <!-- Modal -->
-    <%-- <div class="modal fade" id="ModelNewyear" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-keyboard="false" data-bs-backdrop="static">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content certificate-modal">
+
+                <button type="button"
+                    class="btn-close btn-close-white certificate-close"
+                    data-bs-dismiss="modal">
+                </button>
+
+                <div class="modal-body d-flex justify-content-center align-items-center">
+
+                    <img id="certificatePreview"
+                        src=""
+                        class="certificate-preview">
                 </div>
-                <div class="modal-body d-flex justify-content-center"  >
-              <img src="https://cdn.pixabay.com/photo/2021/12/07/10/16/happy-new-year-6852876_960_720.jpg" class=" w-50" />
-                </div>
-                
 
             </div>
         </div>
-    </div>
-    <script type="text/javascript"> 
-        function showModelHappyNewYear() {
-            $('#ModelNewyear').modal('show');
-        }
-        window.onload = showModelHappyNewYear;
 
-    </script>--%>
+    </div>
+
+    <script>
+    function showCertificate(src) {
+        document.getElementById("certificatePreview").src = src;
+    }
+    </script>
 </asp:Content>

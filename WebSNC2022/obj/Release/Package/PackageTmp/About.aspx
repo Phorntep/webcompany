@@ -174,7 +174,7 @@
                             <div class="p-3 border bg-light  d-flex justify-content-center bgcoloarfull">
                                 <img src="Image/Certification/iatf16949-iso9001_edited-03.jpg" class="d-block img-thumbnail  " style="height: 10rem; width: 10rem;" />
                                 <img src="Image/Certification/URS-3.png" class="d-block img-thumbnail rounded " style="height: 10rem; width: 15rem;" />
-                                <img src="Image/Certification/46ce866c2064d33.jpg" class="d-block img-thumbnail " style="height: 10rem; width: 15rem;" />
+                                <img src="Image/Certification/46ce866c2064d33.png" class="d-block img-thumbnail " style="height: 10rem; width: 15rem;" />
                             </div>
                         </div>
                         <div class="col-2">

@@ -12,6 +12,7 @@
                         <li class="mx-2"  data-filter=".first"><a href="../Policy_Cookie.aspx" >Cookies Policy</a></li>
                         <li class="mx-2" data-filter=".second"><a href="../Policy_PrivacyAndNotice.aspx" >ข้อกฎหมายและสิทธิส่วนบุคคล</a></li>
                         <li class="mx-2" data-filter=".third"><a href="../Policy_Privacy.aspx" >Privacy Policy</a></li>
+                        <li class="mx-2" data-filter=".fourth"><a href="../Policy_BusinessCodeOfConduct.aspx" >จรรยาบรรณทางธุรกิจ</a></li>
                     </ul>
                 </div>
             </div>
